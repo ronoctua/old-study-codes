@@ -1,0 +1,49 @@
+:root {
+  --primary-color: #34cb79;
+  --title-color: #067b5a;
+  --text-color: #6c6c80;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+#root {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+body {
+  background: #f0f0f5;
+  color: var(--text-color);
+}
+
+body,
+input,
+button {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--title-color);
+  font-family: Ubuntu;
+}
