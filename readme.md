@@ -72,7 +72,7 @@
 
 > Periodic event where we develop a complete solution - server, web, mobile.
 
-✅ **[Ecoleta](events/NextLevelWeek/NWL01-Ecoleta#🚀)** _(NLW 01)_ ➜ Ecoleta is an application to map and locate companies that collect waste in a sustainable way.
+✅ **[Ecoleta](events/NextLevelWeek/NLW01-Ecoleta#🚀)** _(NLW 01)_ ➜ Ecoleta is an application to map and locate companies that collect waste in a sustainable way.
 
 <table>
   <tr>
