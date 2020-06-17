@@ -10,6 +10,12 @@
 
 > **Português:** Ecoleta é um aplicativo para mapear e localizar empresas que coletam resíduos de maneira sustentável.
 
+- **Event:** Next Level Week
+
+- **Edition:** 1
+
+- **Date:** 2020.06.01 - 2020.06.07
+
 ### 🟢 Result of my code following the original idea:
 
 <p align="center">
