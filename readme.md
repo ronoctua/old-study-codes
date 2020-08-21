@@ -17,17 +17,32 @@
 
 > Intensive training with technologies like NodeJS, ReactJS and React Native and more.
 
-<!-- ✅ **[GoRestaurant](bootcamp/GoStack11/GoRestaurant#🚀)** ➜ Blah blah.. -->
+✅ **[GoBarber](bootcamp/GoStack11/GoBarber#🚀)** ➜ A complete solution (backend, web and mobile) for barbershop. 🌟 Highlighted Repo! 🌟
 
-⬜️ `GoRestaurant ➜ Coming soon...`
-
-<!-- ✅ **[GoBarber](bootcamp/GoStack11/GoBarber#🚀)** ➜ Blah blah.. -->
-
-⬜️ `GoBarber ➜ Coming soon...`
-
-<!-- ✅ **[GoFinances](bootcamp/GoStack11/GoFinances#🚀)** ➜ Blah blah.. -->
-
-⬜️ `GoFinances ➜ Coming soon...`
+<table>
+  <tr>
+    <td>
+      <a href="bootcamp/GoStack11/GoBarber#🚀">
+        <img src="bootcamp/GoStack11/GoBarber/screenshots/GoBarber-mini-screen-01.png">
+      </a>
+    </td>
+    <td>
+      <a href="bootcamp/GoStack11/GoBarber#🚀">
+        <img src="bootcamp/GoStack11/GoBarber/screenshots/GoBarber-mini-screen-02.png">
+      </a>
+    </td>
+    <td>
+      <a href="bootcamp/GoStack11/GoBarber#🚀">
+        <img src="bootcamp/GoStack11/GoBarber/screenshots/AlienGoBarber-mini-screen-01.png">
+      </a>
+    </td>
+    <td>
+      <a href="bootcamp/GoStack11/GoBarber#🚀">
+        <img src="bootcamp/GoStack11/GoBarber/screenshots/AlienGoBarber-mini-screen-02.png">
+      </a>
+    </td>
+  </tr>
+</table>
 
 ✅ **[GitHub Explorer](bootcamp/GoStack11/GitHubExplorer#🚀)** ➜ An app to explore GitHub repositories.
 
@@ -55,6 +70,14 @@
     </td>
   </tr>
 </table>
+
+<!-- ✅ **[GoRestaurant](bootcamp/GoStack11/GoRestaurant#🚀)** ➜ Blah blah.. -->
+
+⬜️ `GoRestaurant ➜ Coming soon...`
+
+<!-- ✅ **[GoFinances](bootcamp/GoStack11/GoFinances#🚀)** ➜ Blah blah.. -->
+
+⬜️ `GoFinances ➜ Coming soon...`
 
 ---
 
