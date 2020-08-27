@@ -13,6 +13,12 @@
   </a>
 </p>
 
+<p align="center">
+  <a aria-label="__dotted_line__" href="https://github.com/BON4S/MyRocketseatCodes#🚀">
+    <img src="assets/dotted-purple-line.png">
+  </a>
+</p>
+
 ### 🟪 **Bootcamp Codes - GoStack 11**
 
 > GoStack 11 was intensive training in technologies like NodeJS, ReactJS, React Native and many others.
@@ -71,7 +77,11 @@
   </tr>
 </table>
 
----
+<p align="center">
+  <a aria-label="__dotted_line__" href="https://github.com/BON4S/MyRocketseatCodes#🚀">
+    <img src="assets/dotted-purple-line.png">
+  </a>
+</p>
 
 ### 🟪 **YouTube/Twitch Codes**
 
@@ -104,7 +114,11 @@
   </tr>
 </table>
 
----
+<p align="center">
+  <a aria-label="__dotted_line__" href="https://github.com/BON4S/MyRocketseatCodes#🚀">
+    <img src="assets/dotted-purple-line.png">
+  </a>
+</p>
 
 ### 🟪 **Next Level Week Codes**
 
@@ -137,7 +151,11 @@
   </tr>
 </table>
 
----
+<p align="center">
+  <a aria-label="__dotted_line__" href="https://github.com/BON4S/MyRocketseatCodes#🚀">
+    <img src="assets/dotted-purple-line.png">
+  </a>
+</p>
 
 ### 🟪 **Semana OmniStack Codes**
 
@@ -170,7 +188,11 @@
   </tr>
 </table>
 
----
+<p align="center">
+  <a aria-label="__dotted_line__" href="https://github.com/BON4S/MyRocketseatCodes#🚀">
+    <img src="assets/dotted-purple-line.png">
+  </a>
+</p>
 
 ### 🟪 Useful Links
 
