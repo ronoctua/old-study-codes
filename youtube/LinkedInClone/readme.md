@@ -6,9 +6,9 @@
 
 ### 🎓 LinkedIn Clone
 
-> **English:** It is a clone of the LinkedIn user interface in order to learn how to apply the "Shimer Effect".
+> **English:** It is a clone of the LinkedIn user interface in order to learn how to apply the "Shimmer Effect".
 
-> **Português:** Trata-se de um clone da interface do LinkedIn com o objetivo de aprender a aplicar o "Shimer Effect".
+> **Português:** Trata-se de um clone da interface do LinkedIn com o objetivo de aprender a aplicar o "Shimmer Effect".
 
 ↳ **[YouTube video link](https://www.youtube.com/watch?v=-ZV-_7vNRGw#🚀)**
 

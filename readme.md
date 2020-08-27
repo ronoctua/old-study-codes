@@ -77,7 +77,7 @@
 
 > Content learned on the Rocketseat channel on YouTube or Twitch.
 
-✅ **[LinkedIn Clone](youtube/LinkedInClone#🚀)** ➜ It is a clone of the LinkedIn user interface in order to learn how to apply the "Shimer Effect".
+✅ **[LinkedIn Clone](youtube/LinkedInClone#🚀)** ➜ It is a clone of the LinkedIn user interface in order to learn how to apply the "Shimmer Effect".
 
 <table>
   <tr>
