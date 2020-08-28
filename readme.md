@@ -56,12 +56,12 @@
   <tr>
     <td>
       <a href="bootcamp/GoStack11/GoBarber#🚀">
-        <img src="bootcamp/GoStack11/GoBarber/screenshots/GoBarber-mini-screen-01.png">
+        <img src="bootcamp/GoStack11/GoBarber/screenshots/GoBarber-mini-screen-02.png">
       </a>
     </td>
     <td>
       <a href="bootcamp/GoStack11/GoBarber#🚀">
-        <img src="bootcamp/GoStack11/GoBarber/screenshots/GoBarber-mini-screen-02.png">
+        <img src="bootcamp/GoStack11/GoBarber/screenshots/SteampunkGoBarber-mini-screen-01.png">
       </a>
     </td>
     <td>

@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/BON4S/bootcamp/GoStack11/GoBarber#🚀">
-    <img src="screenshots/GoBarber.gif">
+    <img src="screenshots/GoBarber-banner.png">
   </a>
 </p>
 
@@ -20,6 +20,7 @@
     <td>ReactJS</td>
     <td>React Native</td>
     <td>Express</td>
+    <td>JsonWebToken</td>
   </tr>
   <tr>
     <td>Babel</td>
@@ -27,6 +28,7 @@
     <td>Knex</td>
     <td>CORS</td>
     <td>Axios</td>
+    <td>Docker</td>
   </tr>
   <tr>
     <td>Postgre</td>
@@ -34,6 +36,7 @@
     <td>Redis</td>
     <td>TypeORM</td>
     <td>TSyringe</td>
+    <td>BcryptJS</td>
   </tr>
   <tr>
     <td>Multer</td>
@@ -41,6 +44,7 @@
     <td>AWS SDK</td>
     <td>Styled Components</td>
     <td>Handlebars</td>
+    <td>ioredis</td>
   </tr>
   <tr>
     <td>Celebrate</td>
@@ -48,18 +52,20 @@
     <td>Unform</td>
     <td>Jest</td>
     <td>Prettier</td>
-  </tr>
-  <tr>
-    <td>ioredis</td>
-    <td>BcryptJS</td>
     <td>date-fns</td>
-    <td>JsonWebToken</td>
-    <td>Docker</td>
   </tr>
 </tbody>
 </table>
 
-### 🎓 Original GoBarber:
+### 🎓 Figma links
+
+> ↳ **[Original design on Figma](https://www.figma.com/file/BXCihtXXh9p37lGsENV614/GoBarber?node-id=34%3A1181)**
+
+> ↳ **[My alien design on Figma](https://www.figma.com/file/reEYELjIUyYEsigChzLPJw/Alien-GoBarber?node-id=0%3A1)**
+
+> ↳ **[My steampunk login design on Figma](https://www.figma.com/file/9pNIvGgEHsJMYWHZ5f4pv3/Steampunk-GoBarber?node-id=0%3A1)**
+
+### 🎓 Original GoBarber
 
 <p align="center">
   <a href="https://github.com/BON4S/bootcamp/GoStack11/GoBarber#🚀">
@@ -73,11 +79,15 @@
   </a>
 </p>
 
-### 🎓 My alien Figma design:
+### 🎓 My steampunk login design on Figma
 
-> Original design on Figma : **[click here](https://www.figma.com/file/BXCihtXXh9p37lGsENV614/GoBarber?node-id=34%3A1181)**
+<p align="center">
+  <a href="https://github.com/BON4S/bootcamp/GoStack11/GoBarber#🚀">
+    <img src="screenshots/SteampunkGoBarber-screen-01.png">
+  </a>
+</p>
 
-> My alien design on Figma: **[click here](https://www.figma.com/file/reEYELjIUyYEsigChzLPJw/Alien-GoBarber?node-id=0%3A1)**
+### 🎓 My alien Figma design
 
 <p align="center">
   <a href="https://github.com/BON4S/bootcamp/GoStack11/GoBarber#🚀">
