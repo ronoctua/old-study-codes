@@ -1,20 +1,24 @@
 <p align="center">
-  <a aria-label="MY_ROCKETSEAT_CODES" href="https://github.com/BON4S/MyRocketseatCodes#🚀">
+  <a aria-label="MY_ROCKETSEAT_CODES" href="https://github.com/imtherousers/MyRocketseatCodes#🚀">
     <img src="assets/MyRocketseatCodes.gif">
   </a>
 </p>
 
 <p align="center">
-  <a aria-label="MADE_BY_BON4S" href="https://github.com/BON4S/MyRocketseatCodes#🚀">
-    <img src="https://img.shields.io/badge/-MADE_BY_BON4S-7159c1?style=for-the-badge&labelColor=222222">
+  <a aria-label="MADE_BY_imtherousers" href="https://github.com/imtherousers/MyRocketseatCodes#🚀">
+    <img src="https://img.shields.io/badge/-MADE_BY_imtherousers-7159c1?style=for-the-badge&labelColor=222222">
   </a>
   <a aria-label="LESSONS_FROM_ROCKETSEAT" href="https://rocketseat.com.br/#🚀">
     <img alt="" src="https://img.shields.io/badge/LESSONS_FROM-Rocketseat_🚀-7159c1?style=for-the-badge&labelColor=222222">
   </a>
 </p>
 
+<br />
+
+<h3>This repository contains codes developed by the "imtherouser" through the content provided by the Rocketseat company.</h3>
+
 <p align="center">
-  <a aria-label="__dotted_line__" href="https://github.com/BON4S/MyRocketseatCodes#🚀">
+  <a aria-label="__dotted_line__" href="https://github.com/imtherousers/MyRocketseatCodes#🚀">
     <img src="assets/dotted-purple-line.png">
   </a>
 </p>
@@ -78,7 +82,7 @@
 </table>
 
 <p align="center">
-  <a aria-label="__dotted_line__" href="https://github.com/BON4S/MyRocketseatCodes#🚀">
+  <a aria-label="__dotted_line__" href="https://github.com/imtherousers/MyRocketseatCodes#🚀">
     <img src="assets/dotted-purple-line.png">
   </a>
 </p>
@@ -115,7 +119,7 @@
 </table>
 
 <p align="center">
-  <a aria-label="__dotted_line__" href="https://github.com/BON4S/MyRocketseatCodes#🚀">
+  <a aria-label="__dotted_line__" href="https://github.com/imtherousers/MyRocketseatCodes#🚀">
     <img src="assets/dotted-purple-line.png">
   </a>
 </p>
@@ -152,7 +156,7 @@
 </table>
 
 <p align="center">
-  <a aria-label="__dotted_line__" href="https://github.com/BON4S/MyRocketseatCodes#🚀">
+  <a aria-label="__dotted_line__" href="https://github.com/imtherousers/MyRocketseatCodes#🚀">
     <img src="assets/dotted-purple-line.png">
   </a>
 </p>
@@ -189,14 +193,14 @@
 </table>
 
 <p align="center">
-  <a aria-label="__dotted_line__" href="https://github.com/BON4S/MyRocketseatCodes#🚀">
+  <a aria-label="__dotted_line__" href="https://github.com/imtherousers/MyRocketseatCodes#🚀">
     <img src="assets/dotted-purple-line.png">
   </a>
 </p>
 
 ### 🟪 Useful Links
 
-↳ [Rocketseat - Me on Rocketseat's social network](https://app.rocketseat.com.br/me/bonas#🚀)
+↳ [Rocketseat - Me on Rocketseat's social network](https://app.rocketseat.com.br/me/imtherouser#🚀)
 
 ↳ [Rocketseat - Main page](https://rocketseat.com.br/#🚀)
 

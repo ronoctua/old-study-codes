@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://github.com/BON4S/MyRocketseatCodes/events/NextLevelWeek/NLW01-Ecoleta#🚀">
+  <a href="https://github.com/imtherouser/MyRocketseatCodes/events/NextLevelWeek/NLW01-Ecoleta#🚀">
     <img src="screenshots/Ecoleta.gif">
   </a>
 </p>
@@ -19,7 +19,7 @@
 ### 🟢 Result of my code following the original idea:
 
 <p align="center">
-  <a href="https://github.com/BON4S/MyRocketseatCodes/events/NextLevelWeek/NLW01-Ecoleta#🚀">
+  <a href="https://github.com/imtherouser/MyRocketseatCodes/events/NextLevelWeek/NLW01-Ecoleta#🚀">
     <img src="screenshots/original/ecoleta-screens.gif">
   </a>
 </p>
@@ -27,9 +27,9 @@
 ### 🟢 My implementation of a web user interface:
 
 <p align="center">
-  <a href="https://github.com/BON4S/MyRocketseatCodes/events/NextLevelWeek/NLW01-Ecoleta#🚀">
+  <a href="https://github.com/imtherouser/MyRocketseatCodes/events/NextLevelWeek/NLW01-Ecoleta#🚀">
     <img src="screenshots/webuserinterface/ecoleta-webuserinterface.gif">
   </a>
 </p>
 
-[⇦ Back to the main page](https://github.com/BON4S/MyRocketseatCodes#🚀)
+[⇦ Back to the main page](https://github.com/imtherouser/MyRocketseatCodes#🚀)

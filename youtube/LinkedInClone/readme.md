@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://github.com/BON4S/youtube/LinkedInClone#🚀">
+  <a href="https://github.com/imtherouser/youtube/LinkedInClone#🚀">
     <img src="screenshots/LinkedInCloneBanner.gif">
   </a>
 </p>
@@ -15,9 +15,9 @@
 ### 🎓 UI clone with Shimmer Effect
 
 <p align="center">
-  <a href="https://github.com/BON4S/youtube/LinkedInClone#🚀">
+  <a href="https://github.com/imtherouser/youtube/LinkedInClone#🚀">
     <img src="screenshots/LinkedInClone.gif">
   </a>
 </p>
 
-[⇦ Back to the main page](https://github.com/BON4S/MyRocketseatCodes#🚀)
+[⇦ Back to the main page](https://github.com/imtherouser/MyRocketseatCodes#🚀)

@@ -31,7 +31,7 @@ const DesktopHeader: React.FC = () => {
               <span>Notificações</span>
             </button>
             <button>
-              <ProfileCircle src="https://github.com/BON4s.png" />
+              <ProfileCircle src="https://github.com/imtherouser.png" />
               <span>
                 Eu <CaretDownIcon />
               </span>

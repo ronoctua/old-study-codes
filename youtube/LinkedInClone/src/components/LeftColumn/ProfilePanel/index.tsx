@@ -10,7 +10,7 @@ const ProfilePanel: React.FC = () => {
       <Container>
         <div className="profile-cover"></div>
         <img
-          src="https://github.com/BON4S.png"
+          src="https://github.com/imtherouser.png"
           alt="Avatar"
           className="profile-picture"
         />

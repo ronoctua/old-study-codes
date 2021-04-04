@@ -1,10 +1,10 @@
 <p align="center">
-  <a href="https://github.com/BON4S/events/SemanaOmniStack/SO11-BeTheHero#🚀">
+  <a href="https://github.com/imtherouser/events/SemanaOmniStack/SO11-BeTheHero#🚀">
     <img src="screenshots/BeTheHero.gif">
   </a>
 </p>
 
-[⇦ Back to the main page](https://github.com/BON4S/MyRocketseatCodes#🚀)
+[⇦ Back to the main page](https://github.com/imtherouser/MyRocketseatCodes#🚀)
 
 ### 🔴 Be The Hero
 
@@ -79,4 +79,4 @@
   </tr>
 </table>
 
-[⇦ Back to the main page](https://github.com/BON4S/MyRocketseatCodes#🚀)
+[⇦ Back to the main page](https://github.com/imtherouser/MyRocketseatCodes#🚀)

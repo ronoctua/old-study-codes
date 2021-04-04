@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://github.com/BON4S/bootcamp/GoStack11/GoBarber#🚀">
+  <a href="https://github.com/imtherouser/bootcamp/GoStack11/GoBarber#🚀">
     <img src="screenshots/GoBarber-banner.png">
   </a>
 </p>
@@ -68,13 +68,13 @@
 ### 🎓 Original GoBarber
 
 <p align="center">
-  <a href="https://github.com/BON4S/bootcamp/GoStack11/GoBarber#🚀">
+  <a href="https://github.com/imtherouser/bootcamp/GoStack11/GoBarber#🚀">
     <img src="screenshots/GoBarber-Screenshot-01.gif">
   </a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/BON4S/bootcamp/GoStack11/GoBarber#🚀">
+  <a href="https://github.com/imtherouser/bootcamp/GoStack11/GoBarber#🚀">
     <img src="screenshots/GoBarber-Screenshot-02.png">
   </a>
 </p>
@@ -82,7 +82,7 @@
 ### 🎓 My steampunk login design on Figma
 
 <p align="center">
-  <a href="https://github.com/BON4S/bootcamp/GoStack11/GoBarber#🚀">
+  <a href="https://github.com/imtherouser/bootcamp/GoStack11/GoBarber#🚀">
     <img src="screenshots/SteampunkGoBarber-screen-01.png">
   </a>
 </p>
@@ -90,15 +90,15 @@
 ### 🎓 My alien Figma design
 
 <p align="center">
-  <a href="https://github.com/BON4S/bootcamp/GoStack11/GoBarber#🚀">
+  <a href="https://github.com/imtherouser/bootcamp/GoStack11/GoBarber#🚀">
     <img src="screenshots/AlienGoBarber-Screen-01.png">
   </a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/BON4S/bootcamp/GoStack11/GoBarber#🚀">
+  <a href="https://github.com/imtherouser/bootcamp/GoStack11/GoBarber#🚀">
     <img src="screenshots/AlienGoBarber-Screen-02.png">
   </a>
 </p>
 
-[⇦ Back to the main page](https://github.com/BON4S/MyRocketseatCodes#🚀)
+[⇦ Back to the main page](https://github.com/imtherouser/MyRocketseatCodes#🚀)

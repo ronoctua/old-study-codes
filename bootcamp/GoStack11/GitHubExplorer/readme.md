@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://github.com/BON4S/bootcamp/GoStack11/GitHubExplorer#🚀">
+  <a href="https://github.com/imtherouser/bootcamp/GoStack11/GitHubExplorer#🚀">
     <img src="screenshots/GitHubExplorer.gif">
   </a>
 </p>
@@ -13,7 +13,7 @@
 ### 🐙 Result of my code following the original idea:
 
 <p align="center">
-  <a href="https://github.com/BON4S/bootcamp/GoStack11/GitHubExplorer#🚀">
+  <a href="https://github.com/imtherouser/bootcamp/GoStack11/GitHubExplorer#🚀">
     <img src="screenshots/original/GitHubExplorer-original.gif">
   </a>
 </p>
@@ -21,9 +21,9 @@
 ### 🐙 My version of the app idea in a "file manager" style:
 
 <p align="center">
-  <a href="https://github.com/BON4S/bootcamp/GoStack11/GitHubExplorer#🚀">
+  <a href="https://github.com/imtherouser/bootcamp/GoStack11/GitHubExplorer#🚀">
     <img src="screenshots/filemanager/GitHubExplorer-filemanager.gif">
   </a>
 </p>
 
-[⇦ Back to the main page](https://github.com/BON4S/MyRocketseatCodes#🚀)
+[⇦ Back to the main page](https://github.com/imtherouser/MyRocketseatCodes#🚀)
