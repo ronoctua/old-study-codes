@@ -1,0 +1,143 @@
+.ok-or-not, body {
+  position: absolute;
+  display: block;
+  z-index: 6666;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 8%;
+  text-align: center;
+}
+
+.ok {
+  background-color: var(--ion-color-success-tint);
+}
+
+.not-ok {
+  background-color: var(--ion-color-danger-tint);
+}
+
+.ok,
+.ok .message div,
+.ok .message p {
+  color: var(--ion-color-success-contrast);
+}
+
+.not-ok,
+.not-ok .message div,
+.not-ok .message p {
+  color: var(--ion-color-danger-contrast);
+}
+
+.ok .message div {
+  text-shadow: var(--ion-color-success-tint) 0px 0px 4px;
+}
+
+.not-ok .message div {
+  text-shadow: var(--ion-color-danger-tint) 0px 0px 4px;
+}
+
+.ok .star::after {
+  opacity: 0.2;
+}
+
+.not-ok .star::after {
+  opacity: 0.09;
+}
+
+.ok ion-icon {
+  width: 90%;
+  height: 90%;
+}
+
+.not-ok ion-icon {
+  width: 100%;
+  height: 100%;
+}
+
+.message {
+  position: relative;
+  display: block;
+  z-index: 7777;
+  top: -250px;
+  margin: 30px 20px;
+  line-height: 30px;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  animation: top-to-bottom 1s 1s both;
+}
+
+.message div {
+  background-color: #ffffff40;
+  border-radius: 20px;
+  padding: 20px;
+  border: 1px solid #ffffff17;
+}
+
+.star {
+  position: relative;
+  display: block;
+  z-index: 7777;
+  height: 140px;
+  width: 140px;
+  margin: auto;
+  text-align: center;
+}
+
+.star::after {
+  content: "";
+  position: absolute;
+  z-index: 7777;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-image: url(/assets/star.svg);
+  background-repeat: no-repeat;
+  background-position: 0px -5.7px;
+  background-size: contain;
+  filter: invert(100%);
+  //border: 3px solid #000;
+  border-radius: 300px;
+  animation-name: rotate;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+
+.star div {
+  position: relative;
+  z-index: 8888;
+  width: 100%;
+  height: 100%;
+}
+
+ion-icon {
+  margin: 6px 0 0 10px;
+  color: #fff;
+  animation-name: rotate;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-fill-mode: both;
+}
+
+@keyframes rotate {
+  0% {
+    transform:rotate(0deg);
+  }
+  100% {
+    transform:rotate(-360deg);
+  }
+}
+
+@keyframes top-to-bottom {
+  0% {
+    top: -250px;
+  }
+  100% {
+    top: 0px;
+  }
+}

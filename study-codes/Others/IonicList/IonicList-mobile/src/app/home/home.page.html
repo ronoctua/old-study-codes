@@ -1,0 +1,60 @@
+<ion-content>
+  
+  <!-- SPLASH SCREEN -->
+  <div class="splash middle">
+    <h1>List App</h1>
+  </div>
+
+  <!-- IF THERE IS NO CONNECTED USER SHOW THIS -->
+  <div *ngIf="!afAuth.auth.currentUser">
+    <div class="the-title the-title-box">
+      <h1>List App</h1>
+    </div>
+    <br>
+    <firebase-ui></firebase-ui>
+  </div>
+
+  <!-- SHOW THIS IF THE USER IS CONNECTED -->
+  <div *ngIf="afAuth.auth.currentUser">
+
+    <!-- IF THE EMAIL IS NOT CONFIRMED SHOW THIS -->
+    <div *ngIf="!global.hasVerifiedEmail" class="verify-email ion-padding">
+      <div class="the-title the-title-box-alert">
+        <h1>List App</h1>
+      </div>
+      <div>
+        <br>
+        <h3>
+          {{afAuth.auth.currentUser.displayName}}
+        </h3>
+          Check your email to<br>
+          <b>verify your account</b>.
+      </div>
+      <div>
+        <br>
+        <div class="spinning-skull center-of-line"></div>
+        <b>
+          WAITING FOR<br>
+          CONFIMATION..
+        </b>
+        <br>
+        <p *ngIf="emailSendingDate">
+          Email sent at:<br>
+          <b>{{ emailSendingDate }}</b>.
+        </p>
+        <ion-button *ngIf="afAuth.auth.currentUser" (click)="bye()">Sing Out</ion-button>
+        <ion-button color="secondary" (click)="sendVerificationEmail()">Resend</ion-button>
+      </div>
+    </div>
+
+    <!-- IF THE EMAIL IS CONFIRMED SHOW THIS -->
+    <div *ngIf="global.hasVerifiedEmail" class="welcome ion-padding middle">
+      <h4>
+        Welcome<br>
+        {{afAuth.auth.currentUser.displayName}}!
+      </h4>
+    </div>
+
+  </div>
+
+</ion-content>

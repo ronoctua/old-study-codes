@@ -1,0 +1,28 @@
+<ion-content *ngIf="global.hasVerifiedEmail" class="ion-padding">
+
+  <div class="top">
+    <p>
+      <span>Current name: &nbsp;&nbsp; </span><span><b>{{ global.userName }}</b></span>
+    </p>
+  </div>
+
+  <form [formGroup]="validationsForm" class="validations-form"  (ngSubmit)="onSubmit(validationsForm.value)">
+    
+    <ion-item>
+      <ion-label position="floating" color="primary">New name</ion-label>
+      <ion-input type="text" formControlName="name"></ion-input>
+    </ion-item>
+    
+    <div class="validation-errors">
+      <ng-container *ngFor="let validation of validationMessages.name">
+        <div class="error-message" *ngIf="validationsForm.get('name').hasError(validation.type) && (validationsForm.get('name').dirty || validationsForm.get('name').touched)">
+          <ion-icon name="information-circle-outline"></ion-icon> {{ validation.message }}
+        </div>
+      </ng-container>
+    </div>
+
+    <ion-button color="primary" class="submit-btn expand" expand="block" type="submit" [disabled]="!validationsForm.valid">Submit</ion-button>
+
+  </form>
+
+</ion-content>

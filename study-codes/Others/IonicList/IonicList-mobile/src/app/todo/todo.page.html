@@ -1,0 +1,20 @@
+<ion-tabs *ngIf="global.hasVerifiedEmail">
+  <ion-tab-bar slot="top">
+
+    <ion-tab-button (click)="global.listOne()">
+      <span class="list-1-dot">☉</span>
+      <ion-label> 1 </ion-label>
+    </ion-tab-button>
+
+    <ion-tab-button (click)="global.listTwo()">
+      <span class="list-2-dot">☉</span>
+      <ion-label> 2 </ion-label>
+    </ion-tab-button>
+
+    <ion-tab-button (click)="global.listThree()">
+      <span class="list-3-dot">☉</span>
+      <ion-label> 3 </ion-label>
+    </ion-tab-button>
+
+  </ion-tab-bar>
+</ion-tabs>

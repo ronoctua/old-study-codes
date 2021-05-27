@@ -1,0 +1,85 @@
+{
+  "private": true,
+  "name": "dumbbot",
+  "version": "0.1.0",
+  "description": "This is a dumb bot.",
+  "keywords": [
+    "dumbbot",
+    "bot",
+    "dumb"
+  ],
+  "homepage": "https://github.com/imtherouser/DumbBot",
+  "author": "imtherouser (https://github.com/imtherouser)",
+  "license": "MIT",
+  "window": {
+    "title": "DumbBot",
+    "icon": "assets/icons/icon-gray.png",
+    "show": false,
+    "show_in_taskbar": false,
+    "frame": false,
+    "transparent": true,
+    "resizable": false
+  },
+  "eslintConfig": {
+    "extends": "nw-react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "nwBuilder": {
+    "platforms": [
+      "linux32",
+      "linux64",
+      "osx64",
+      "win32",
+      "win64"
+    ],
+    "version": "latest",
+    "flavor": "normal",
+    "buildDir": "./build",
+    "cacheDir": "./cache",
+    "macIcns": "assets/icons/icon-black.icns"
+  },
+  "workspaces": [
+    "src/modules/*"
+  ],
+  "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "console-read-write": "^0.1.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.21",
+    "nw": "^0.46.2",
+    "nw-react-scripts": "^3.4.1",
+    "polished": "^3.6.5",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-icons": "^3.10.0",
+    "stringify-object": "^3.3.0",
+    "styled-components": "^5.1.1"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.21.2",
+    "eslint-plugin-jsx-a11y": "^6.3.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.20.0",
+    "eslint-plugin-react-hooks": "^4",
+    "nwjs-types": "^1.0.0",
+    "prettier": "^2.0.5"
+  }
+}

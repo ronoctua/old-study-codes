@@ -1,0 +1,78 @@
+ion-list {
+  padding-top: 0;
+}
+
+ion-item {
+  padding: 0;
+  --inner-padding-end: 0;
+  --border-color: var(--ion-color-light);
+}
+
+ion-label {
+  margin-top: 7px;
+  margin-bottom: 8px;
+}
+
+ion-list ion-icon {
+  color: var(--ion-color-dark);
+}
+
+.todo-content {
+  display: flex;
+  padding-left: 8px;
+}
+
+.todo-main-content,
+.todo-date-and-type-content {
+  flex-grow: 1;
+}
+
+.todo-main-content {
+  padding-right: 5px;
+}
+
+.todo-date-and-type-content {
+  width: 4.75rem;
+  max-width: 4.75rem;
+  min-width: 4.75rem;
+  padding: 0 8px;
+  border-left: 2px dotted var(--ion-color-light-shade);
+  white-space: nowrap;
+  text-align: right;
+}
+
+.todo-main-content p {
+  margin: 0;
+  color: var(--ion-color-medium);
+  font-size: 0.75rem;
+}
+
+p.todo-details {
+  line-height: 1rem;
+}
+
+.todo-date-and-type-content p {
+  margin: 0;
+  font-size: 0.625rem;
+  color: var(--ion-color-dark-tint);
+}
+
+.todo-title {
+  color: var(--ion-color-dark-tint);
+}
+
+.todo-time {
+  margin: 0 5px;
+  padding: 0 5px;
+  border-radius: 6px;
+  font-size: 0.625rem;
+  letter-spacing: 0.4px;
+  font-weight: bold;
+  vertical-align: top;
+  background-color: var(--ion-color-light);
+  text-shadow: 0px 0px 1px var(--ion-color-dark-contrast);
+}
+
+.space {
+  height: 50px;
+}

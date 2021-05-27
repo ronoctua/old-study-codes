@@ -1,0 +1,235 @@
+.middle h1, .middle h2, .middle h3, .middle h4,
+.middle p, .middle a, .middle div {
+  margin: auto;
+}
+
+.middle {
+  z-index: 99999;
+  position: absolute;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  animation-name: background-and-disappear;
+  animation-duration: 4.2s;
+  animation-timing-function: linear;
+  animation-fill-mode: both;
+}
+
+.welcome {
+  margin-top: -20%;
+  animation-name: appear-and-disappear;
+  animation-delay: 1s;
+  animation-duration: 1.9s;
+  animation-timing-function: linear;
+  animation-fill-mode: both;
+}
+
+.welcome h4 {
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  color: var(--ion-color-dark-tint);
+}
+
+div.splash h1 {
+  font-family: "BON4S";
+  font-size: 30px;
+  color: va(--ion-color-medium-tint);
+  animation-name: rotate-appear-and-disappear;
+  animation-duration: 3.6s;
+  animation-delay: 0.4s;
+  animation-timing-function: linear;
+  animation-fill-mode: both;
+}
+
+.the-title,
+firebase-ui {
+  opacity: 0;
+  position: relative;
+  animation-duration: 2s;
+  animation-delay: 3.2s;
+  animation-fill-mode: both;
+}
+
+.the-title {
+  animation-name: left-to-right;
+}
+
+firebase-ui {
+  animation-name: right-to-left;
+}
+
+.the-title-box {
+  margin: 40px 0 -10px 0;
+  text-align: center;
+}
+
+.the-title-box-alert {
+  margin: 0 0 -10px 0;
+  text-align: center;
+}
+
+.the-title-box h1,
+.the-title-box-alert h1 {
+  font-family: "BON4S";
+  letter-spacing: 1px;
+  font-size: 2.75rem;
+  margin: 0;
+  padding: 0;
+}
+
+.the-title-box h1 {
+  color: var(--ion-color-medium-shadow);
+}
+
+.the-title-box-alert h1 {
+  color: var(--ion-color-danger-contrast);
+}
+
+.verify-email {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: var(--ion-color-danger-contrast);
+  background-color: var(--ion-color-danger-tint);
+  animation: appear 3s 2s both;
+}
+
+.verify-email h3,
+.verify-email div,
+.verify-email p {
+  color: var(--ion-color-danger-contrast);
+}
+
+.spinning-skull {
+  width: 46px;
+  height: 46px;
+  background-image: url(/assets/skull.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  filter: invert(100%);
+  animation-name: rotate;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.center-of-line {
+  margin: 0 auto;
+}
+
+@keyframes background-and-disappear {
+  0% {
+    display: flex;
+    background-color: var(--ion-background-color);
+    z-index: 99999;
+  }
+  99% {
+    display: flex;
+    background-color: var(--ion-background-color);
+    z-index: 99999;
+  }
+  100% {
+    display: none;
+    background-color: none;
+    z-index: -99999;
+  }
+}
+
+@keyframes rotate-appear-and-disappear {
+  0% {
+    opacity: 0;
+    transform:rotate(0deg);
+  }
+  20% {
+    opacity: 1;
+    transform:rotate(0deg);
+  }
+  30% {
+    opacity: 1;
+    transform:rotate(0deg);
+  }
+  40% {
+    opacity: 1;
+    transform:rotate(360deg);
+  }
+  80% {
+    opacity: 1;
+    transform:rotate(360deg);
+  }
+  100% {
+    opacity: 0;
+    transform:rotate(360deg);
+  }
+}
+
+@keyframes appear-and-disappear {
+  0% {
+    opacity: 0;
+  }
+  15% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform:rotate(0deg);
+  }
+  100% {
+    transform:rotate(360deg);
+  }
+}
+
+@keyframes right-to-left {
+  0% {
+    opacity: 0;
+  }
+  60% {
+    left: 500px;
+    opacity: 0;
+  }
+  100% {
+    left: 0px;
+    opacity: 1;
+  }
+}
+
+@keyframes left-to-right {
+  0% {
+    opacity: 0;
+  }
+  60% {
+    right: 500px;
+    opacity: 0;
+  }
+  100% {
+    right: 0px;
+    opacity: 1;
+  }
+}
+
+@keyframes shake {
+  0% {
+    transform: rotate(-3deg);
+  }
+  100% {
+    transform: rotate(3deg);
+  }
+}

@@ -1,0 +1,24 @@
+ion-list {
+  padding-top: 0;
+}
+
+ion-label, .label {
+  width: 57px;
+  max-width: 57px;
+}
+
+.label {
+  border-right: 2px dotted #c6c6c6;
+  font-size: 13px;
+  font-weight: bold;
+  color: #959595;
+}
+
+ion-select,
+ion-input {
+  --padding-start: 16px;
+}
+
+.space {
+  height: 50px;
+}

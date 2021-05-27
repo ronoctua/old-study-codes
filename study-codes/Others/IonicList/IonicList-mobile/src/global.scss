@@ -1,0 +1,54 @@
+/* Core CSS required for Ionic components to work properly */
+@import "~@ionic/angular/css/core.css";
+
+/* Basic CSS for apps built with Ionic */
+@import "~@ionic/angular/css/normalize.css";
+@import "~@ionic/angular/css/structure.css";
+@import "~@ionic/angular/css/typography.css";
+@import '~@ionic/angular/css/display.css';
+
+/* Optional CSS utils that can be commented out */
+@import "~@ionic/angular/css/padding.css";
+@import "~@ionic/angular/css/float-elements.css";
+@import "~@ionic/angular/css/text-alignment.css";
+@import "~@ionic/angular/css/text-transformation.css";
+@import "~@ionic/angular/css/flex-utils.css";
+
+/* firebase-ui */
+@import '../src/theme/firebaseui-modified.css';
+
+html {
+  font-size: 100%;
+}
+
+h1 {
+  font-size: 1.1rem;
+}
+
+h2 {
+  font-size: 1rem;
+}
+
+h3 {
+  font-size: 0.9rem;
+}
+
+h4, h5, h6 {
+  font-size: 0.8rem;
+}
+
+ion-select, ion-item, ion-label,
+ion-grid, ion-col, ion-row,
+a, p, div {
+  font-size: 0.8rem;
+  outline: none;
+  color: var(--ion-color-dark-tint);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--ion-color-dark);
+}
+
+a:hover {
+  color: var(--ion-color-dark-shade);
+}

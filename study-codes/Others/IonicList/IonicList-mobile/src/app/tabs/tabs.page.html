@@ -1,0 +1,20 @@
+<ion-tabs *ngIf="global.hasVerifiedEmail">
+  <ion-tab-bar slot="bottom">
+
+    <!--
+    <ion-tab-button tab="start">
+      <ion-icon name="list"></ion-icon>
+    </ion-tab-button>
+    -->
+
+    <ion-tab-button (click)="global.listOne()">
+      <ion-icon name="checkmark-done"></ion-icon>
+    </ion-tab-button>
+
+    <ion-tab-button tab="config">
+      <ion-icon name="cog"></ion-icon>
+    </ion-tab-button>
+
+  </ion-tab-bar>
+</ion-tabs>
+

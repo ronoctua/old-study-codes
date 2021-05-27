@@ -1,0 +1,20 @@
+.top {
+  padding: 20px 6px;
+  color: var(--ion-color-dark-tint);
+}
+
+.top,
+ion-input,
+ion-item {
+  font-size: 0.9rem;
+}
+
+.error-message {
+  margin-top: 10px;
+  font-size: 0.8rem;
+  color: var(--ion-color-danger);
+}
+
+.submit-btn {
+  margin-top: 40px;
+}

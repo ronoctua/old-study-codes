@@ -1,0 +1,56 @@
+<ion-content *ngIf="global.hasVerifiedEmail">
+  
+  <ion-list>
+    <ion-item-sliding *ngFor="let todo of global.todoList">
+
+      <ion-item class="ion-no-padding">
+        <ion-label class="ion-text-wrap">
+          <div class="todo-content">
+            <div class="todo-main-content">
+              <p>
+                <span class="todo-title">{{ todo.title }}</span>
+                <span class="todo-time" *ngIf="todo.eventTime" [innerHTML]="global.getTime(todo.eventTime)"></span>
+              </p>
+              <p class="todo-details" *ngIf="todo.details">
+                <span>{{ todo.details }}</span>
+              </p>
+            </div>
+            <div class="todo-date-and-type-content" *ngIf="todo.type || todo.eventDate">
+              <p *ngIf="todo.type">
+                <span class="todo-type">{{ todo.type }}</span>
+              </p>
+              <p *ngIf="todo.eventDate">
+                <span class="todo-date" [innerHTML]="global.getDate(todo.eventDate)"></span>
+              </p>
+            </div>
+          </div>
+        </ion-label>
+      </ion-item>
+
+      <ion-item-options side="start" (ionSwipe)="global.editPage(todo)">
+        <ion-item-option color="secondary" (click)="global.editPage(todo)" expandable>
+          <ion-icon name="create"></ion-icon>
+        </ion-item-option>
+        <ion-item-option color="secondary" (click)="global.deleteItem(todo)">
+          <ion-icon name="close"></ion-icon>
+        </ion-item-option>
+      </ion-item-options>
+
+      <ion-item-options side="end" (ionSwipe)="global.deleteItem(todo)">
+        <ion-item-option color="secondary" (click)="global.editPage(todo)">
+          <ion-icon name="create"></ion-icon>
+        </ion-item-option>
+        <ion-item-option color="secondary" (click)="global.deleteItem(todo)" expandable>
+          <ion-icon name="close"></ion-icon>
+        </ion-item-option>
+      </ion-item-options>
+    </ion-item-sliding>
+
+  </ion-list>
+
+  <ion-fab horizontal="end" vertical="bottom" slot="fixed" (click)="addPage()">
+    <ion-button><ion-icon name="add"></ion-icon></ion-button>
+  </ion-fab>
+
+  <div class="space"></div>
+</ion-content>

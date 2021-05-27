@@ -1,0 +1,33 @@
+<ion-content *ngIf="global.hasVerifiedEmail">
+
+  <div class="top">
+    <p>Are you sure you want to remove the account?</p>
+  </div>
+
+  <div id="yes-no">
+
+    <div id="yes" class="btn" (click)="remove()">
+      <ion-icon name="sad"></ion-icon>
+      <p>
+        <b>
+          YES!
+          <br>
+          Remove it!
+        </b>
+      </p>
+    </div>
+
+    <div id="no" class="btn hide" (click)="notRemove()">
+      <ion-icon name="happy"></ion-icon>
+      <p>
+        <b>
+          NO!
+          <br>
+          Do not remove it!
+        </b>
+      </p>
+    </div>
+
+  </div> <!-- end: div#yes-no -->
+
+</ion-content>

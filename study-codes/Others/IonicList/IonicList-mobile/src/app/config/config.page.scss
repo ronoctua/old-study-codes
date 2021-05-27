@@ -1,0 +1,76 @@
+.config-page h2,
+.config-page h3 {
+  margin: 10px 0;
+  padding: 0;
+}
+
+.config-page a {
+  display: block;
+  padding: 10px 0;
+  text-decoration: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.menu-user,
+.menu-block,
+.menu-bottom-block {
+  padding: 9px 28px;
+}
+
+.menu-block-center {
+  padding: 10px 0;
+}
+
+.menu-user,
+.menu-block,
+.menu-block-center {
+  border-bottom: 1px solid var(--ion-color-secondary);
+}
+
+.info {
+  color: var(--ion-color-medium-tint);
+}
+
+ion-grid, ion-row, ion-col {
+  max-width: 360px;
+  min-width: 60px;
+  margin: 0;
+  padding: 0;
+}
+
+div.toggle ion-col {
+  display: inline-block;
+  min-width: 60px;
+  margin-top: 0.2rem;
+}
+
+ion-select {
+  display: inline-flex;
+  padding: 0;
+}
+
+.padding {
+  padding: 8px 0;
+}
+
+.menu-block-center,
+.center {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.align-left {
+  text-align: left;
+}
+

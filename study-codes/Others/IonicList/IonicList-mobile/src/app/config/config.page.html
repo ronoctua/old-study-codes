@@ -1,0 +1,195 @@
+<ion-content *ngIf="global.hasVerifiedEmail" class="config-page">
+  
+  <div class="menu-user">
+    <h2>{{ global.userName }}</h2>
+    <p><b>{{ global.userEmail }}</b></p>
+  </div>
+
+  <div class="menu-block">
+    <a [routerLink]="['/tabs/change-name']">Change name</a>
+    <a (click)="changePassword()">Change password</a>
+    <a [routerLink]="['/tabs/remove-account']">Remove account</a>
+
+    <!-- LANGUAGE: -->
+    <ion-grid style="display: none;"> <!-- "display: none;" !!! -->
+      <ion-row>
+
+        <ion-col>
+          <div class="padding">
+            Language:
+          </div>
+        </ion-col>
+
+        <ion-col>
+          <div class="padding">
+            <ion-select value="en">
+              <ion-select-option value="en">English</ion-select-option>
+              <ion-select-option value="pt-BR">Portuguese (BR)</ion-select-option>
+              <ion-select-option value="es">Spanish</ion-select-option>
+            </ion-select>
+          </div>
+        </ion-col>
+
+      </ion-row>
+    </ion-grid> 
+
+  </div> <!-- end: div.menu-block -->
+
+  <div class="menu-block-center">
+
+    <!-- LIGHT/DARK THEME: -->
+    <ion-grid class="center">
+      <ion-row>
+
+        <ion-col>
+          <div class="align-right padding">
+            Light theme
+          </div>
+        </ion-col>
+
+        <div class="toggle">
+          <ion-col class="align-center">
+            <div class="toggle-div">
+              <ion-toggle [(ngModel)]="themeToggle" (ionChange)="themeSwitcher()" class="padding" color="dark"></ion-toggle>
+            </div>
+          </ion-col>
+        </div>
+
+        <ion-col>
+          <div class="align-left padding">
+            Dark theme
+          </div>
+        </ion-col>
+
+      </ion-row>
+    </ion-grid>
+  </div> <!-- end: menu-block-center -->
+    
+  <div class="menu-block" style="display: none;"> <!-- "display: none;" !!! -->
+
+    <!-- TIME ZONE: -->
+    
+    <ion-grid>
+      <ion-row>
+
+        <ion-col>
+          <div class="padding">
+            Time zone:
+          </div>
+        </ion-col>
+
+        <ion-col>
+          <div class="padding">
+            <ion-select value="auto">
+              <ion-select-option value="auto">Auto</ion-select-option>
+              <ion-select-option value="utc-12">UTC -12</ion-select-option>
+              <ion-select-option value="utc-11">UTC -11</ion-select-option>
+              <ion-select-option value="utc-10">UTC -10</ion-select-option>
+              <ion-select-option value="utc-9">UTC -9</ion-select-option>
+              <ion-select-option value="utc-8">UTC -8</ion-select-option>
+              <ion-select-option value="utc-7">UTC -7</ion-select-option>
+              <ion-select-option value="utc-6">UTC -6</ion-select-option>
+              <ion-select-option value="utc-5">UTC -5</ion-select-option>
+              <ion-select-option value="utc-4">UTC -4</ion-select-option>
+              <ion-select-option value="utc-3">UTC -3</ion-select-option>
+              <ion-select-option value="utc-2">UTC -2</ion-select-option>
+              <ion-select-option value="utc-1">UTC -1</ion-select-option>
+              <ion-select-option value="utc0">UTC 0</ion-select-option>
+              <ion-select-option value="utc+1">UTC +1</ion-select-option>
+              <ion-select-option value="utc+2">UTC +2</ion-select-option>
+              <ion-select-option value="utc+3">UTC +3</ion-select-option>
+              <ion-select-option value="utc+4">UTC +4</ion-select-option>
+              <ion-select-option value="utc+5">UTC +5</ion-select-option>
+              <ion-select-option value="utc+6">UTC +6</ion-select-option>
+              <ion-select-option value="utc+7">UTC +7</ion-select-option>
+              <ion-select-option value="utc+8">UTC +8</ion-select-option>
+              <ion-select-option value="utc+9">UTC +9</ion-select-option>
+              <ion-select-option value="utc+10">UTC +10</ion-select-option>
+              <ion-select-option value="utc+11">UTC +11</ion-select-option>
+              <ion-select-option value="utc+12">UTC +12</ion-select-option>
+            </ion-select>
+          </div>
+        </ion-col>
+
+      </ion-row>
+    </ion-grid>
+
+    <!-- TIME FORMAT: -->
+    <ion-grid>
+      <ion-row>
+
+        <ion-col>
+          <div class="padding">
+            Time format:
+          </div>
+        </ion-col>
+
+        <ion-col>
+          <div class="padding">
+            <ion-select value="24-hour-clock">
+              <ion-select-option value="12-hour-clock">12-hour clock</ion-select-option>
+              <ion-select-option value="24-hour-clock">24-hour clock</ion-select-option>
+            </ion-select>
+          </div>
+        </ion-col>
+
+      </ion-row>
+    </ion-grid>
+
+    <!-- DATE FORMAT: -->
+    <ion-grid>
+      <ion-row>
+
+        <ion-col>
+          <div class="padding">
+            Date format:
+          </div>
+        </ion-col>
+
+        <ion-col>
+          <div class="padding">
+            <ion-select value="auto">
+              <ion-select-option value="auto">Auto</ion-select-option>
+              <ion-select-option value="DD/MM/YYYY">DD/MM/YYYY</ion-select-option>
+              <ion-select-option value="DD.MM.YYYY">DD.MM.YYYY</ion-select-option>
+              <ion-select-option value="DD-MM-YYYY">DD-MM-YYYY</ion-select-option>
+              <ion-select-option value="MM/DD/YYYY">MM/DD/YYYY</ion-select-option>
+              <ion-select-option value="MM.DD.YYYY">MM.DD.YYYY</ion-select-option>
+              <ion-select-option value="MM-DD-YYYY">MM-DD-YYYY</ion-select-option>
+              <ion-select-option value="YYYY/MM/DD">YYYY/MM/DD</ion-select-option>
+              <ion-select-option value="YYYY.MM.DD">YYYY.MM.DD</ion-select-option>
+              <ion-select-option value="YYYY-MM-DD">YYYY-MM-DD</ion-select-option>
+            </ion-select>
+          </div>
+        </ion-col>
+
+      </ion-row>
+    </ion-grid>
+
+    <!-- CURRENT TIME: -->
+    <ion-grid>
+      <ion-row>
+
+        <ion-col>
+          <div class="info padding">
+            Current time:
+          </div>
+        </ion-col>
+
+        <ion-col>
+          <div class="info padding">
+            13:26 &nbsp;&nbsp; 20/02/2020
+          </div>
+        </ion-col>
+
+      </ion-row>
+    </ion-grid>
+
+  </div> <!-- end: div.menu-block -->
+
+  <div class="menu-bottom-block">
+    <!--<a>Administrative user menu</a>-->
+    <a (click)="bye()">Logoff</a>
+  </div>
+
+</ion-content>

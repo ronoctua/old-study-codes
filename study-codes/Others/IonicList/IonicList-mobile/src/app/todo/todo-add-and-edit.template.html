@@ -1,0 +1,62 @@
+<ion-content *ngIf="global.hasVerifiedEmail">
+  <ion-list id="addAndEdit">
+
+    <ion-item>
+      <ion-label position="undefined"><div class="label">List</div></ion-label>
+      <ion-select appNoArrow [(ngModel)]="todoCategory" interface="popover">
+        <ion-select-option value="1">List 1</ion-select-option>
+        <ion-select-option value="2">List 2</ion-select-option>
+        <ion-select-option value="3">List 3</ion-select-option>
+      </ion-select>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="undefined"><div class="label">Title</div></ion-label>
+      <ion-input type="text" [(ngModel)]="todoTitle"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="undefined"><div class="label">Details</div></ion-label>
+      <ion-input type="text" [(ngModel)]="todoDetails"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="undefined"><div class="label">Type</div></ion-label>
+      <ion-select [(ngModel)]="todoType">
+        <ion-select-option value="Deadline">Deadline</ion-select-option>
+        <ion-select-option value="To-do">To-do</ion-select-option>
+        <ion-select-option value="Event">Event</ion-select-option>
+        <ion-select-option value="Reminder">Reminder</ion-select-option>
+        <ion-select-option value="Fix me">Fix me</ion-select-option>
+        <ion-select-option value="Date">Date</ion-select-option>
+        <ion-select-option value="Routine">Routine</ion-select-option>
+        <ion-select-option value="Project">Project</ion-select-option>
+        <ion-select-option value="Appointment">Appointment</ion-select-option>
+        <ion-select-option value="Birthday">Birthday</ion-select-option>
+        <ion-select-option value="Social">Social</ion-select-option>
+        <ion-select-option value="Other">Other</ion-select-option>
+      </ion-select>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="undefined"><div class="label">Date</div></ion-label>
+      <ion-datetime min="2020" max="2120" display-format="DD/MM/YYYY" [(ngModel)]="todoEventDate"></ion-datetime>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="undefined"><div class="label">Time</div></ion-label>
+      <ion-datetime display-format="HH:mm" [(ngModel)]="todoEventTime"></ion-datetime>
+    </ion-item>
+
+  </ion-list>
+
+  <ion-fab horizontal="start" vertical="bottom" slot="fixed" (click)="previousPage()">
+    <ion-button><ion-icon name="arrow-back"></ion-icon></ion-button>
+  </ion-fab>
+
+  <ion-fab horizontal="end" vertical="bottom" slot="fixed" (click)="addOrEdit()">
+    <ion-button>{{ addOrEditLabel }} <ion-icon name="add"></ion-icon></ion-button>
+  </ion-fab>
+
+  <div class="space"></div>
+</ion-content>

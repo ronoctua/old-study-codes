@@ -1,0 +1,45 @@
+{
+  "env": {
+    "browser": true,
+    "es2020": true,
+    "node": true
+  },
+  "extends": [
+    "plugin:react/recommended",
+    "airbnb",
+    "plugin:prettier/recommended"
+  ],
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 11,
+    "sourceType": "module"
+  },
+  "plugins": ["react", "prettier", "eslint-plugin-import-helpers"],
+  "rules": {
+    "no-new": "off",
+    "no-prototype-builtins": "off",
+    "no-restricted-syntax": "off",
+    "max-classes-per-file": "off",
+    "no-console": "off",
+    "import/prefer-default-export": "off",
+    "no-useless-constructor": "off",
+    "no-underscore-dangle": "off",
+    "prettier/prettier": "error",
+    "class-methods-use-this": "off",
+    "react/jsx-filename-extension": [
+      "error",
+      {
+        "extensions": [".mjs", ".js", ".jsx", ".ts", ".tsx"]
+      }
+    ],
+    "import/no-unresolved": "error",
+    "object-curly-spacing": ["error", "always"],
+    "array-bracket-spacing": ["error", "always"]
+  }
+}

@@ -1,0 +1,62 @@
+.top {
+  padding: 24px;
+  text-align: center;
+}
+
+.top,
+.top p {
+  font-size: 1.25rem;
+}
+
+#yes-no,
+#yes,
+#no {
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  border-radius: 500px;
+  text-align: center;
+  text-shadow: 0px 0px 3px #0000007a;
+  cursor: pointer;
+}
+
+#yes-no p,
+#yes p,
+#no p {
+  margin: 0;
+  padding: 0;
+}
+
+#yes,
+#no {
+  padding: 50px 30px;
+}
+
+#yes {
+  background-color: #f25454;
+}
+
+#no {
+  background-color: #10dc60;
+}
+
+#yes,
+#yes p,
+#yes ion-icon {
+  color: #fff;
+}
+
+#no,
+#no p,
+#no ion-icon {
+  color: #fff;
+}
+
+.hide {
+  display: none;
+}
+
+ion-icon {
+  font-size: 46px;
+  filter: drop-shadow(0px 0px 1px #00000062);
+}

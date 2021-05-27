@@ -1,0 +1,24 @@
+{
+  "main": "index.js",
+  "name": "dumbbot",
+  "description": "DumbBot.",
+  "keywords": [
+    "dumbbot",
+    "bot",
+    "dumb"
+  ],
+  "author": "imtherouser",
+  "window": {
+    "show": false,
+    "show_in_taskbar": false,
+    "title": "dumbbot",
+    "icon": "assets/icon.png",
+    "frame": false
+  },
+  "webkit": {
+    "plugin": true
+  },
+  "dependencies": {
+    "twit": "^2.2.11"
+  }
+}
