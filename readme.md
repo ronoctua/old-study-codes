@@ -1,5 +1,4 @@
 <div align="center">
-<br>
   <a href="https://github.com/imtherouser/Studies#🖖">
     <img alt="Banner Image" src="assets/Studies-vulcan-salute.png" />
   </a>
