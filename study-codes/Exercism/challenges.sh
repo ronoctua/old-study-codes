@@ -5,7 +5,7 @@ echo "HANDLE CHALLENGES"
 read -r -d '' top_readme_content << EOM
 <br />
 
-[◄ Back link](https://github.com/imtherouser/Studies/study-codes/Exercism/#🖖)
+[◄ Back link](https://github.com/imtherouser/Studies/tree/master/study-codes/Exercism/#🖖)
 
 <br />
 
@@ -19,7 +19,7 @@ EOM
 folders=($(ls typescript))
 
 for folder in "${folders[@]}"; do
-  link="* [$folder](https://github.com/imtherouser/Studies/study-codes/Exercism/typescript/$folder#🖖)"
+  link="* [$folder](https://github.com/imtherouser/Studies/tree/master/study-codes/Exercism/typescript/$folder#🖖)"
 
   if !(grep -Fxq "$link" "readme.md"); then
     echo "$link" >> "readme.md"

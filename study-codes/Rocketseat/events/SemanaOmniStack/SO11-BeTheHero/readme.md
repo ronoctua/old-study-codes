@@ -6,7 +6,7 @@
 
 <br />
 
-[◄ Back link](https://github.com/imtherouser/Studies/study-codes/Rocketseat#🚀)
+[◄ Back link](https://github.com/imtherouser/Studies/tree/master/study-codes/Rocketseat#🚀)
 
 ### 🔴 Be The Hero
 
@@ -85,4 +85,4 @@ It is an application to connect NGOs to people willing to help.
 
 <br />
 
-[◄ Back link](https://github.com/imtherouser/Studies/study-codes/Rocketseat#🚀)
+[◄ Back link](https://github.com/imtherouser/Studies/tree/master/study-codes/Rocketseat#🚀)

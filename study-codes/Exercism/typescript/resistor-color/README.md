@@ -1,6 +1,6 @@
 <br />
 
-[◄ Back link](https://github.com/imtherouser/Studies/study-codes/Exercism/#🖖)
+[◄ Back link](https://github.com/imtherouser/Studies/tree/master/study-codes/Exercism/#🖖)
 
 <br />
 

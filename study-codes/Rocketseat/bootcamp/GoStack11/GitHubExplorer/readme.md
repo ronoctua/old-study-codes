@@ -6,7 +6,7 @@
 
 <br />
 
-[◄ Back link](https://github.com/imtherouser/Studies/study-codes/Rocketseat#🚀)
+[◄ Back link](https://github.com/imtherouser/Studies/tree/master/study-codes/Rocketseat#🚀)
 
 ### 🐙 GitHub Explorer
 
@@ -32,4 +32,4 @@ It is an app to explore GitHub repositories.
   </a>
 </p>
 
-[◄ Back link](https://github.com/imtherouser/Studies/study-codes/Rocketseat#🚀)
+[◄ Back link](https://github.com/imtherouser/Studies/tree/master/study-codes/Rocketseat#🚀)

@@ -4,7 +4,7 @@
   </a>
 </p>
 
-[◄ Back link](https://github.com/imtherouser/Studies/study-codes/Rocketseat#🚀)
+[◄ Back link](https://github.com/imtherouser/Studies/tree/master/study-codes/Rocketseat#🚀)
 
 ### 🎓 GoBarber
 
@@ -111,4 +111,4 @@ It is a complete solution (api, web, mobile) created for a barber shop, using ma
   </a>
 </p>
 
-[◄ Back link](https://github.com/imtherouser/Studies/study-codes/Rocketseat#🚀)
+[◄ Back link](https://github.com/imtherouser/Studies/tree/master/study-codes/Rocketseat#🚀)

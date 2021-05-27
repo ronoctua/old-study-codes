@@ -6,7 +6,7 @@
 
 <br />
 
-[◄ Back link](https://github.com/imtherouser/Studies/study-codes/Rocketseat#🚀)
+[◄ Back link](https://github.com/imtherouser/Studies/tree/master/study-codes/Rocketseat#🚀)
 
 ### 🎓 LinkedIn Clone
 
@@ -28,4 +28,4 @@ It is a clone of the LinkedIn user interface in order to learn how to apply the 
 
 <br />
 
-[◄ Back link](https://github.com/imtherouser/Studies/study-codes/Rocketseat#🚀)
+[◄ Back link](https://github.com/imtherouser/Studies/tree/master/study-codes/Rocketseat#🚀)
