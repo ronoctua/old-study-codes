@@ -21,3 +21,4 @@ Here are the challenge codes which I completed from the Exercism platform.
 * [space-age](https://github.com/imtherouser/Studies/tree/master/study-codes/Exercism/typescript/space-age#🖖)
 * [pangram](https://github.com/imtherouser/Studies/tree/master/study-codes/Exercism/typescript/pangram#🖖)
 * [bob](https://github.com/imtherouser/Studies/tree/master/study-codes/Exercism/typescript/bob#🖖)
+* [matrix](https://github.com/imtherouser/Studies/tree/master/study-codes/Exercism/typescript/matrix#🖖)
