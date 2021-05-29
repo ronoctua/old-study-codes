@@ -22,3 +22,4 @@ Here are the challenge codes which I completed from the Exercism platform.
 * [pangram](https://github.com/imtherouser/Studies/tree/master/study-codes/Exercism/typescript/pangram#🖖)
 * [bob](https://github.com/imtherouser/Studies/tree/master/study-codes/Exercism/typescript/bob#🖖)
 * [matrix](https://github.com/imtherouser/Studies/tree/master/study-codes/Exercism/typescript/matrix#🖖)
+* [robot-name](https://github.com/imtherouser/Studies/tree/master/study-codes/Exercism/typescript/robot-name#🖖)
