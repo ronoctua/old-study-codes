@@ -24,3 +24,4 @@ Here are the challenge codes which I completed from the Exercism platform.
 * [matrix](https://github.com/imtherouser/Studies/tree/master/study-codes/Exercism/typescript/matrix#🖖)
 * [robot-name](https://github.com/imtherouser/Studies/tree/master/study-codes/Exercism/typescript/robot-name#🖖)
 * [grade-school](https://github.com/imtherouser/Studies/tree/master/study-codes/Exercism/typescript/grade-school#🖖)
+* [clock](https://github.com/imtherouser/Studies/tree/master/study-codes/Exercism/typescript/clock#🖖)
