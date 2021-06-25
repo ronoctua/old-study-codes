@@ -1,0 +1,14 @@
+model User {
+  id            Int                @id @default(autoincrement())
+  username      String             @unique
+  email         String             @unique
+  password      String
+  isAdmin       Boolean?           @default(false)
+  theme         String?            @default("default")
+  editorTheme   String?            @default("default")
+  avatar        String?
+  refreshTokens UserRefreshToken[]
+  notes         User_Note[]
+  createdAt     DateTime           @default(now())
+  updatedAt     DateTime           @updatedAt
+}

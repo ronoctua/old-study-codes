@@ -1,0 +1,12 @@
+.vscode/
+node_modules/
+
+dist/*
+!dist/.gitkeep
+
+tmp/uploads/*
+!tmp/uploads/.gitkeep
+
+.env.dev
+.env.test
+.env.prod

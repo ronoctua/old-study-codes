@@ -1,0 +1,11 @@
+model User_Note {
+  userId     Int
+  user       User     @relation(fields: [userId], references: [id])
+  noteId     Int
+  note       Note     @relation(fields: [noteId], references: [id])
+  permission String   @default("edit")
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+
+  @@id([userId, noteId])
+}

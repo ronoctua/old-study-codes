@@ -1,0 +1,9 @@
+model Note {
+  id        Int         @id @default(autoincrement())
+  title     String      @unique
+  type      String
+  content   String      @default("")
+  users     User_Note[]
+  createdAt DateTime    @default(now())
+  updatedAt DateTime    @updatedAt
+}

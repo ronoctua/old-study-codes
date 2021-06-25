@@ -1,0 +1,23 @@
+{
+  "name": "Memoryboard",
+  "short_name": "Memoryboard",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#111111",
+  "theme_color": "#111111",
+  "description": "Memoryboard.",
+  "icons": [
+    {
+      "src": "memoryboard-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "memoryboard-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "prefer_related_applications": false
+}
