@@ -9,3 +9,5 @@
 **<ins>Notes app</ins>, <ins>multi-user</ins>, <ins>realtime</ins>, with the <ins>VS-Code engine</ins>, for <ins>web</ins>, <ins>desktop</ins>, and <ins>mobile</ins>.**
 
 Memoryboard is not ready to use. I created this app just to learn a little more about some technologies like: **Prisma (v2.21.2), Socket.io, Redux, Next, Monaco...**
+
+[◄ Back link](https://github.com/imtherouser/Studies#🖖)
