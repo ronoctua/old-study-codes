@@ -138,11 +138,40 @@
 
 ### 🟪 **EVENT CODES • Next Level Week**
 
-> Next Level Week is a periodic event where a complete solution (api, web and mobile) is developed over the course of an entire week.
+> Next Level Week is a periodic event where an app is developed over the course of an entire week.
 
 <br />
 
-**[Ecoleta](events/NextLevelWeek/NLW01-Ecoleta#🚀)** _`NLW 01`_ ┊ Ecoleta is a solution to map and locate companies that collect waste in a sustainable way.
+**[LetMeAsk](events/NextLevelWeek/NLW06-LetMeAsk#🚀)** _`NLW 06`_ ┊ LetMeAsk is an app to post questions, in real-time, to be answered during a live stream.
+
+<table>
+  <tr>
+    <td>
+      <a href="events/NextLevelWeek/NLW06-LetMeAsk#🚀">
+        <img src="events/NextLevelWeek/NLW06-LetMeAsk/assets/LetMeAsk-screenshot-MINI-01.png">
+      </a>
+    </td>
+    <td>
+      <a href="events/NextLevelWeek/NLW06-LetMeAsk#🚀">
+        <img src="events/NextLevelWeek/NLW06-LetMeAsk/assets/LetMeAsk-screenshot-MINI-03.png">
+      </a>
+    </td>
+    <td>
+      <a href="events/NextLevelWeek/NLW06-LetMeAsk#🚀">
+        <img src="events/NextLevelWeek/NLW06-LetMeAsk/assets/LetMeAsk-screenshot-MINI-02.png">
+      </a>
+    </td>
+    <td>
+      <a href="events/NextLevelWeek/NLW06-LetMeAsk#🚀">
+        <img src="events/NextLevelWeek/NLW06-LetMeAsk/assets/LetMeAsk-screenshot-MINI-04.png">
+      </a>
+    </td>
+  </tr>
+</table>
+
+<br />
+
+**[Ecoleta](events/NextLevelWeek/NLW01-Ecoleta#🚀)** _`NLW 01`_ ┊ Ecoleta is a solution (api, web and mobile) to map and locate companies that collect waste in a sustainable way.
 
 <table>
   <tr>

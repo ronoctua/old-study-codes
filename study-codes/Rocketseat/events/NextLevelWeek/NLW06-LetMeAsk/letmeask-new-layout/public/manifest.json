@@ -1,0 +1,23 @@
+{
+  "name": "LetMeAsk",
+  "short_name": "LetMeAsk",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#fff",
+  "theme_color": "#fff",
+  "description": "LetMeAsk. Let your audience ask you questions in real time.",
+  "icons": [
+    {
+      "src": "letmeask-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "letmeask-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "prefer_related_applications": false
+}
