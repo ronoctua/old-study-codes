@@ -1,0 +1,90 @@
+{
+  "manifest_version": 2,
+  "version": "1.4",
+  "name": "Owl Tools",
+  "description": "Owl Tools is a multi-tool add-on for Firefox Browser.",
+  "homepage_url": "https://github.com/ronoctua/old-study-codes/study-codes/Others/OwlTools",
+  "author": "ronoctua",
+  "default_locale": "en",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "owltools@imtherouser",
+      "strict_min_version": "65.0"
+    }
+  },
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "contextMenus",
+    "storage",
+    "unlimitedStorage",
+    "webRequest",
+    "webRequestBlocking",
+    "clipboardWrite",
+    "clipboardRead",
+    "<all_urls>"
+  ],
+  "icons": {
+    "48": "src/assets/images/owl-icon-48-light-gray.svg"
+  },
+  "browser_action": {
+    "theme_icons": [
+      {
+        "dark": "src/assets/images/owl-icon-48-light-gray.svg",
+        "light": "src/assets/images/owl-icon-48-dark-gray.svg",
+        "size": 48
+      }
+    ],
+    "default_title": "Owl Tools",
+    "default_popup": "src/components/Popup/index.html"
+  },
+  "sidebar_action": {
+    "default_title": "Owl Tools",
+    "default_panel": "src/pages/Preferences/index.html",
+    "default_icon": "src/assets/images/owl-icon-48-light-gray.svg",
+    "browser_style": true
+  },
+  "background": {
+    "page": "src/background.html"
+  },
+  "content_scripts": [
+    {
+      "all_frames": true,
+      "matches": [
+        "*://github.com/*"
+      ],
+      "js": [
+        "src/injections/GitHub/handle-github.js"
+      ]
+    },
+    {
+      "all_frames": true,
+      "matches": [
+        "*://www.youtube.com/*"
+      ],
+      "js": [
+        "src/injections/YouTube/handle-youtube.js"
+      ]
+    },
+    {
+      "all_frames": true,
+      "matches": [
+        "*://www.twitch.tv/*"
+      ],
+      "js": [
+        "src/injections/Twitch/handle-twitch.js"
+      ]
+    }
+  ],
+  "omnibox": {
+    "keyword": "x"
+  },
+  "commands": {
+    "open-popup": {
+      "suggested_key": {
+        "default": "Alt+X"
+      },
+      "description": "Open Owl Tools Popup"
+    }
+  }
+}

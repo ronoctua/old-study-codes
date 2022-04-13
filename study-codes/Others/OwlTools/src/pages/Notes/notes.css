@@ -1,0 +1,49 @@
+html,
+body,
+div#main-content {
+  display: flex;
+  flex-direction: column;
+}
+
+element,
+textarea {
+  display: flex;
+}
+
+div#notes-menu {
+  height: 60px;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+div#notes-menu element {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin: 0 6px;
+  cursor: pointer;
+}
+
+div#notes-menu element:hover {
+  filter: brightness(80%);
+}
+
+div#notes-menu element.selected:hover {
+  filter: brightness(100%);
+}
+
+element#notes-content-area,
+textarea {
+  flex: 1;
+  min-height: 600px;
+  margin: 0;
+}
+
+textarea {
+  padding: 22px;
+  border: none;
+  border-radius: 0;
+}

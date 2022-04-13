@@ -1,12 +1,12 @@
 <br />
 
 <div align="center">
-  <img alt="LetMeAsk Logo" src="assets/LetMeAsk-imtherouser-logo.svg" />
+  <img alt="LetMeAsk Logo" src="assets/LetMeAsk-ronoctua-logo.svg" />
 </div>
 
 <br />
 
-[◄ Back link](https://github.com/imtherouser/Studies/tree/master/study-codes/Rocketseat#🚀)
+[◄ Back link](https://github.com/ronoctua/old-study-codes/tree/master/study-codes/Rocketseat#🚀)
 
 ### 🟣 LetMeAsk
 
@@ -27,7 +27,7 @@ LetMeAsk is an app to post questions, in real-time, to be answered during a live
 I added new features, like: **👉** accessibility tools, **👉** new responsive layout, **👉** pwa, **👉** multiple themes, **👉** question filters, **👉** NextJS, **👉** Eslint, **👉** Styled Components...
 
 <div align="center">
-  <img alt="LetMeAsk Animation 1" src="assets/LetMeAsk-imtherouser-1.gif" />
+  <img alt="LetMeAsk Animation 1" src="assets/LetMeAsk-ronoctua-1.gif" />
 </div>
 
 <br />
@@ -37,9 +37,9 @@ I added new features, like: **👉** accessibility tools, **👉** new responsiv
 <br />
 
 <div align="center">
-  <img alt="LetMeAsk Animation 1" src="assets/LetMeAsk-imtherouser-2.gif" />
+  <img alt="LetMeAsk Animation 1" src="assets/LetMeAsk-ronoctua-2.gif" />
 </div>
 
 <br />
 
-[◄ Back link](https://github.com/imtherouser/Studies/tree/master/study-codes/Rocketseat#🚀)
+[◄ Back link](https://github.com/ronoctua/old-study-codes/tree/master/study-codes/Rocketseat#🚀)

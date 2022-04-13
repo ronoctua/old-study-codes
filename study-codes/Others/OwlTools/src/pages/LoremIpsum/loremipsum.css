@@ -1,0 +1,74 @@
+div#main-content {
+  justify-content: center;
+  align-items: center;
+  min-width: 700px;
+  padding: 20px;
+}
+
+div#left-side,
+div#right-side {
+  flex-direction: column;
+  flex: 1;
+  min-height: 360px;
+}
+
+element {
+  margin: 6px;
+}
+
+textarea {
+  min-width: 390px;
+  padding: 16px;
+  margin-right: 18px;
+  border-radius: 10px;
+  font-size: 13px;
+}
+
+textarea,
+input,
+select,
+button#copy-button,
+button.link-button {
+  flex: 1;
+}
+
+button#close {
+  min-width: 34px;
+}
+
+button,
+select,
+input {
+  margin: 2px;
+  border-radius: 7px;
+}
+
+button,
+input {
+  padding: 6px;
+}
+
+select {
+  padding: 6px 0 6px 6px;
+}
+
+label {
+  margin: 0 6px;
+  font-size: 13px;
+}
+
+b {
+  padding: 0 4px;
+}
+
+div#copied-message {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  z-index: 99999;
+  align-items: center;
+  justify-content: center;
+}

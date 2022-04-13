@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../assets/styles/global.css" />
+    <link rel="stylesheet" href="../../assets/styles/light-theme.css" />
+    <link rel="stylesheet" href="./loremipsum.css" />
+  </head>
+  <body>
+    <div id="main-content">
+      <div id="left-side">
+        <textarea id="ipsum-textarea" spellcheck="false"></textarea>
+      </div>
+
+      <div id="right-side">
+        <element>
+          <div>
+            <select
+              id="main-ipsum-list"
+              name="main-ipsum-list"
+              class="ipsum-list"
+            >
+              <option value="lorem-ipsum">Lorem Ipsum</option>
+              <option value="bacon-ipsum">Bacon Ipsum</option>
+              <option value="rick-and-morty-ipsum">Rick and Morty Ipsum</option>
+              <option value="mussum-ipsum">Mussum Ipsum</option>
+            </select>
+
+            <button id="close">X</button>
+          </div>
+        </element>
+
+        <element>
+          <label id="word-or-phrase-label" for="number-of-phrases-or-words">
+            Number of <b>words</b> per paragraph
+          </label>
+
+          <div>
+            <input
+              type="number"
+              id="number-of-phrases-or-words"
+              name="number-of-phrases-or-words"
+              min="0"
+              max="1000"
+            />
+          </div>
+        </element>
+
+        <element>
+          <label id="paragraphs-label" for="number-of-paragraphs">
+            Number of paragraph
+          </label>
+
+          <div>
+            <input
+              type="number"
+              id="number-of-paragraphs"
+              name="number-of-paragraphs"
+              min="0"
+              max="30"
+            />
+          </div>
+        </element>
+
+        <element>
+          <label id="tag-label" for="">Paragraphs tag</label>
+
+          <div>
+            <input id="paragraphs-tag" name="paragraphs-tag" value="div" />
+          </div>
+        </element>
+
+        <element>
+          <div>
+            <button id="copy-button">Copy to clipboard</button>
+          </div>
+        </element>
+
+        <element>
+          <div>
+            <button id="link-button" class="link-button">
+              About Lorem Ipsum
+            </button>
+          </div>
+        </element>
+      </div>
+
+      <div id="copied-message" class="default-background hide">
+        <h3>COPIED!</h3>
+      </div>
+    </div>
+    <script type="module" src="./loremipsum.js"></script>
+  </body>
+</html>

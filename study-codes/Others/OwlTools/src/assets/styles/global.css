@@ -1,0 +1,213 @@
+@font-face {
+  font-family: 'OwlToolsOpenSans';
+  font-style: normal;
+  font-weight: 800;
+  src: url('../fonts/OpenSans-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'OwlToolsOpenSans';
+  font-style: normal;
+  font-weight: bold;
+  src: url('../fonts/OpenSans-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'OwlToolsOpenSans';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/OpenSans-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'OwlToolsOpenSans';
+  font-style: normal;
+  src: url('../fonts/OpenSans-Regular.ttf') format('truetype');
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  font-family: 'OwlToolsOpenSans', 'Open Sans', 'Roboto', 'Helvetica', 'Arial',
+    sans-serif;
+  scrollbar-color: #2e2e2e #222222;
+}
+
+body {
+  transition-duration: 0.4s;
+}
+
+h1,
+h2,
+h3 {
+  letter-spacing: 0.6px;
+  margin-bottom: 6px;
+  font-weight: 800;
+}
+
+h1,
+h2 {
+  font-size: 21px;
+}
+
+h3 {
+  font-size: 14px;
+}
+
+p {
+  margin: 6px 0;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 0.6px;
+}
+
+p a {
+  font-weight: bold;
+}
+
+a {
+  font-weight: 600;
+}
+
+a,
+button,
+select {
+  cursor: pointer;
+}
+
+button,
+input,
+select,
+textarea,
+label {
+  font-size: 12px;
+  letter-spacing: 0.3px;
+}
+
+button,
+input,
+select,
+textarea {
+  margin: 3px 3px 0 0;
+  padding: 6px;
+  border-radius: 7px;
+}
+
+button {
+  font-weight: bold;
+}
+
+button:active {
+  filter: brightness(90%);
+}
+
+select {
+  -moz-appearance: none;
+}
+
+textarea {
+  flex: 1;
+  min-height: 260px;
+}
+
+textarea.textarea-list {
+  word-spacing: 10px;
+  line-height: 28px;
+  white-space: pre;
+}
+
+div {
+  display: flex;
+}
+
+element {
+  display: block;
+  margin: 36px 20px;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  padding: 6px 6px 6px 0;
+}
+
+label.label-right {
+  margin-left: 14px;
+  padding-top: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  margin: 22px 0;
+  font-size: 14px;
+  letter-spacing: 0.4px;
+}
+
+.list li::before {
+  padding: 0 6px;
+  font-weight: 800;
+  font-size: 13px;
+}
+
+.list h3 {
+  margin-top: 70px;
+}
+
+.own-tools-icon {
+  background: url('../../assets/images/owl-icon-48-dark-gray.svg') no-repeat
+    center;
+}
+
+.hide {
+  display: none;
+}
+
+.block,
+.main-content {
+  display: block;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.justify-center {
+  justify-content: center;
+  text-align: center;
+}
+
+.micro-width {
+  width: 40px;
+  text-align: center;
+}
+
+.small-width {
+  width: 64px;
+}
+
+.medium-width {
+  width: 110px;
+}
+
+.big-word-spacing {
+  word-spacing: 8px;
+}
+
+.initial-cursor-impediment {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  z-index: 99999;
+}

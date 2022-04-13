@@ -18,7 +18,7 @@ const Console: React.FC = () => {
               <span>@DARTHVADER </span>Hello my friend.
             </p>
             <p>
-              <span>@IMTHEROUSER </span>This is a mini-chat message.
+              <span>@RONOCTUA </span>This is a mini-chat message.
             </p>
             <p>
               <span>@DARTHVADER </span>Lorem Ipsum.

@@ -31,3 +31,9 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+# PWA
+/puclic/service-worker.js
+/puclic/service-worker.js.map
+/puclic/workbox-[*].js
+/puclic/worker-development.js

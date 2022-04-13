@@ -1,12 +1,12 @@
 <p align="center">
-  <a href="https://github.com/imtherouser/Studies/tree/master/study-codes/Rocketseat/events/NextLevelWeek/NLW01-Ecoleta#🚀">
+  <a href="https://github.com/ronoctua/old-study-codes/tree/master/study-codes/Rocketseat/events/NextLevelWeek/NLW01-Ecoleta#🚀">
     <img src="screenshots/Ecoleta.gif">
   </a>
 </p>
 
 <br />
 
-[◄ Back link](https://github.com/imtherouser/Studies/tree/master/study-codes/Rocketseat#🚀)
+[◄ Back link](https://github.com/ronoctua/old-study-codes/tree/master/study-codes/Rocketseat#🚀)
 
 ### 🟢 Ecoleta
 
@@ -23,7 +23,7 @@ Ecoleta is a solution to map and locate companies that collect waste in a sustai
 ### 🟢 My version following the original idea:
 
 <p align="center">
-  <a href="https://github.com/imtherouser/Studies/tree/master/study-codes/Rocketseat/events/NextLevelWeek/NLW01-Ecoleta#🚀">
+  <a href="https://github.com/ronoctua/old-study-codes/tree/master/study-codes/Rocketseat/events/NextLevelWeek/NLW01-Ecoleta#🚀">
     <img src="screenshots/original/ecoleta-screens.gif">
   </a>
 </p>
@@ -33,9 +33,9 @@ Ecoleta is a solution to map and locate companies that collect waste in a sustai
 ### 🟢 My own implementation of a web user interface:
 
 <p align="center">
-  <a href="https://github.com/imtherouser/Studies/tree/master/study-codes/Rocketseat/events/NextLevelWeek/NLW01-Ecoleta#🚀">
+  <a href="https://github.com/ronoctua/old-study-codes/tree/master/study-codes/Rocketseat/events/NextLevelWeek/NLW01-Ecoleta#🚀">
     <img src="screenshots/webuserinterface/ecoleta-webuserinterface.gif">
   </a>
 </p>
 
-[◄ Back link](https://github.com/imtherouser/Studies/tree/master/study-codes/Rocketseat#🚀)
+[◄ Back link](https://github.com/ronoctua/old-study-codes/tree/master/study-codes/Rocketseat#🚀)

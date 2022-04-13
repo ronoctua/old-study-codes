@@ -1,0 +1,87 @@
+const DefaultCustomSites = {
+  customSites: {
+    customSiteOne: {
+      display: true,
+      whereToOpen: '⇠ sidebar',
+      icon: 'M',
+      title: 'Maps (custom site 1)',
+      protocol: 'https://',
+      address: 'www.google.com/maps',
+    },
+    customSiteTwo: {
+      display: true,
+      whereToOpen: '⇡ new tab (pinned)',
+      icon: 'N',
+      title: 'Notion (custom site 2)',
+      protocol: 'https://',
+      address: 'www.notion.so',
+    },
+    customSiteThree: {
+      display: true,
+      whereToOpen: 'popup (iframe)',
+      icon: '☼',
+      title: 'Weather (custom site 3)',
+      protocol: 'https://',
+      address: 'wttr.in/London?Fq2',
+    },
+    customSiteFour: {
+      display: true,
+      whereToOpen: '⇡ new tab',
+      icon: '🖂',
+      title: 'Gmail (custom site 4)',
+      protocol: 'https://',
+      address: 'mail.google.com',
+    },
+    customSiteFive: {
+      display: true,
+      whereToOpen: '⇠ sidebar',
+      icon: '▶',
+      title: 'Play (custom site 5)',
+      protocol: 'https://',
+      address:
+        'music.youtube.com/playlist?list=PLdd_VtdFyf6wyf-nb6cPBptWfvfVFbuQg',
+    },
+    customSiteSix: {
+      display: true,
+      whereToOpen: '⇠ sidebar',
+      icon: '?',
+      title: '- Custom Site 6 -',
+      protocol: 'https://',
+      address: '',
+    },
+    customSiteSeven: {
+      display: true,
+      whereToOpen: '⇠ sidebar',
+      icon: '?',
+      title: '- Custom Site 7 -',
+      protocol: 'https://',
+      address: '',
+    },
+    customSiteEight: {
+      display: true,
+      whereToOpen: '⇠ sidebar',
+      icon: '?',
+      title: '- Custom Site 8 -',
+      protocol: 'https://',
+      address: '',
+    },
+    customSiteNine: {
+      display: true,
+      whereToOpen: '⇠ sidebar',
+      icon: '?',
+      title: '- Custom Site 9 -',
+      protocol: 'https://',
+      address: '',
+    },
+    customSiteTen: {
+      display: true,
+      whereToOpen: '⇠ sidebar',
+      icon: '?',
+      title: '- Custom Site 10 -',
+      protocol: 'https://',
+      address: '',
+    },
+  },
+};
+
+export default DefaultCustomSites;

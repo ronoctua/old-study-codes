@@ -1,14 +1,14 @@
 <p align="center">
-  <a href="https://github.com/imtherouser/bootcamp/GoStack11/GoBarber#🚀">
+  <a href="https://github.com/ronoctua/bootcamp/GoStack11/GoBarber#🚀">
     <img src="screenshots/GoBarber-banner.png">
   </a>
 </p>
 
-[◄ Back link](https://github.com/imtherouser/Studies/tree/master/study-codes/Rocketseat#🚀)
+[◄ Back link](https://github.com/ronoctua/old-study-codes/tree/master/study-codes/Rocketseat#🚀)
 
 ### 🎓 GoBarber
 
-It is a complete solution (api, web, mobile) created for a barber shop, using many technologies, and also applying programming concepts and architectural standards.
+It is a complete solution (api, web, mobile) created for barbershops.
 
 <br />
 
@@ -61,54 +61,44 @@ It is a complete solution (api, web, mobile) created for a barber shop, using ma
 
 <br />
 
-### 🎓 Figma links
-
-> ↳ **[Original design on Figma](https://www.figma.com/file/BXCihtXXh9p37lGsENV614/GoBarber?node-id=34%3A1181)**
-
-> ↳ **[My alien design on Figma](https://www.figma.com/file/reEYELjIUyYEsigChzLPJw/Alien-GoBarber?node-id=0%3A1)**
-
-> ↳ **[My steampunk login design on Figma](https://www.figma.com/file/9pNIvGgEHsJMYWHZ5f4pv3/Steampunk-GoBarber?node-id=0%3A1)**
-
-<br />
-
 ### 🎓 Original GoBarber
 
 <p align="center">
-  <a href="https://github.com/imtherouser/bootcamp/GoStack11/GoBarber#🚀">
+  <a href="https://github.com/ronoctua/bootcamp/GoStack11/GoBarber#🚀">
     <img src="screenshots/GoBarber-Screenshot-01.gif">
   </a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/imtherouser/bootcamp/GoStack11/GoBarber#🚀">
+  <a href="https://github.com/ronoctua/bootcamp/GoStack11/GoBarber#🚀">
     <img src="screenshots/GoBarber-Screenshot-02.png">
   </a>
 </p>
 
 <br />
 
-### 🎓 My steampunk login design on Figma
+### 🎓 My steampunk design version (login)
 
 <p align="center">
-  <a href="https://github.com/imtherouser/bootcamp/GoStack11/GoBarber#🚀">
+  <a href="https://github.com/ronoctua/bootcamp/GoStack11/GoBarber#🚀">
     <img src="screenshots/SteampunkGoBarber-screen-01.png">
   </a>
 </p>
 
 <br />
 
-### 🎓 My alien Figma design
+### 🎓 My alien version
 
 <p align="center">
-  <a href="https://github.com/imtherouser/bootcamp/GoStack11/GoBarber#🚀">
+  <a href="https://github.com/ronoctua/bootcamp/GoStack11/GoBarber#🚀">
     <img src="screenshots/AlienGoBarber-Screen-01.png">
   </a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/imtherouser/bootcamp/GoStack11/GoBarber#🚀">
+  <a href="https://github.com/ronoctua/bootcamp/GoStack11/GoBarber#🚀">
     <img src="screenshots/AlienGoBarber-Screen-02.png">
   </a>
 </p>
 
-[◄ Back link](https://github.com/imtherouser/Studies/tree/master/study-codes/Rocketseat#🚀)
+[◄ Back link](https://github.com/ronoctua/old-study-codes/tree/master/study-codes/Rocketseat#🚀)

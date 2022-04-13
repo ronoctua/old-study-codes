@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../../../assets/styles/global.css" />
+    <link rel="stylesheet" href="../../../../assets/styles/toggle.css" />
+    <link
+      rel="stylesheet"
+      href="../../../../assets/styles/dark-theme.css"
+      title="sidebar-theme"
+    />
+  </head>
+  <body>
+    <div class="main-content">
+      <element>
+        <div>
+          <a href="../../index.html">⇠ back</a>
+        </div>
+      </element>
+
+      <element>
+        <h1>Exchange Rate</h1>
+
+        <div>
+          <p>
+            This feature shows in the Owl Tools popup the daily exchange rate of
+            some predetermined currencies.
+          </p>
+        </div>
+      </element>
+
+      <element>
+        <div>
+          <input type="checkbox" id="display-on-off" class="toggle" />
+
+          <label class="label-right">
+            Display or not display the exchange rate in the popup.
+          </label>
+        </div>
+      </element>
+
+      <element>
+        <label>Choose the conversion method</label>
+
+        <div>
+          <select type="text" id="conversion-method-select" class="flex-1">
+            <option value="one-of-base-to-x-of-targets">
+              1 of base to X of targets
+            </option>
+            <option value="x-of-base-to-one-of-targets">
+              X of base to 1 of targets
+            </option>
+          </select>
+        </div>
+      </element>
+
+      <element>
+        <label>Choose the decimal separator and the base currency</label>
+
+        <div>
+          <select type="text" id="decimal-separator-select" class="flex-1">
+            <option value=",">comma</option>
+            <option value=".">point</option>
+          </select>
+
+          <select type="text" id="currency-base-select" class="flex-1"></select>
+        </div>
+      </element>
+
+      <element>
+        <label>Choose the four target currency</label>
+
+        <div>
+          <select type="text" id="currency-one-select" class="flex-1"></select>
+
+          <select type="text" id="currency-two-select" class="flex-1"></select>
+        </div>
+
+        <div>
+          <select
+            type="text"
+            id="currency-three-select"
+            class="flex-1"
+          ></select>
+
+          <select type="text" id="currency-four-select" class="flex-1"></select>
+        </div>
+      </element>
+
+      <!-- <element>
+        <p>
+          To use this feature it is necessary to have a API KEY. You can create
+          it for free at the site
+          <a href="###" target="_blank"
+            >###</a
+          >
+        </p>
+      </element> -->
+
+      <!-- <element>
+        <label>Your API KEY</label>
+
+        <div>
+          <input
+            type="text"
+            id="api-key-input"
+            class="flex-1"
+            placeholder="API KEY"
+          />
+        </div>
+      </element> -->
+
+      <element class="justify-center">
+        <button id="exchange-rate-save-button" class="click-animation">
+          SAVE ALL
+        </button>
+      </element>
+
+      <element>
+        <p>
+          <b>Note</b>
+          <br />
+          This feature depends on a free external API, so it can stop working at
+          any time, or reach a limit number of monthly requests.
+        </p>
+      </element>
+
+      <!-- <element>
+        <p>
+          <b>Notes</b>
+          <br />
+          The api has a limit number of requests per month, when reaching that
+          limit the exchange rates disappear from the popup.
+          <br />
+          The "X of base to 1 of targets" method uses 4 requests each time the
+          popup is opened, and the "1 of base to X of targets" method only one.
+        </p>
+      </element> -->
+    </div>
+    <script type="module" src="./handle-exchange-rate.js"></script>
+    <script src="../../../../assets/scripts/click-animation.js"></script>
+  </body>
+</html>

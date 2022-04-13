@@ -1,0 +1,13 @@
+div#main-content {
+  justify-content: center;
+  align-items: center;
+  padding: 0 10px;
+}
+
+textarea {
+  width: 290px;
+  height: 290px;
+  margin-left: 14px;
+  padding: 16px;
+  border-radius: 10px;
+}

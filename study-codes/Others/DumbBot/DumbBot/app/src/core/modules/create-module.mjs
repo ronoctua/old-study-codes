@@ -171,7 +171,7 @@ export async function createReadmeContent(moduleName) {
 <!-- GRIP repository: https://github.com/joeyespo/grip -->
 
 <p align="center">
-  <a href="https://github.com/imtherouser/DumbBot">
+  <a href="https://github.com/ronoctua/DumbBot">
     <img src="module-image.gif">
   </a>
 </p>
@@ -186,7 +186,7 @@ With this module you can...
 
 🔹 **What is DumbBot?**
 
-[DumbBot](https://https://github.com/imtherouser/DumbBot) is a modular program that runs apps in the system tray. With which you can easily create and run React apps in a component/module format.
+[DumbBot](https://https://github.com/ronoctua/DumbBot) is a modular program that runs apps in the system tray. With which you can easily create and run React apps in a component/module format.
 
 🔹 **How to install ${moduleName}?**
 

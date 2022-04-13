@@ -1,31 +1,27 @@
 <p align="center">
-  <a href="https://github.com/imtherouser/youtube/LinkedInClone#🚀">
+  <a href="https://github.com/ronoctua/youtube/LinkedInClone#🚀">
     <img src="screenshots/LinkedInCloneBanner.gif">
   </a>
 </p>
 
 <br />
 
-[◄ Back link](https://github.com/imtherouser/Studies/tree/master/study-codes/Rocketseat#🚀)
+[◄ Back link](https://github.com/ronoctua/old-study-codes/tree/master/study-codes/Rocketseat#🚀)
 
 ### 🎓 LinkedIn Clone
 
-It is a clone of the LinkedIn user interface in order to learn how to apply the "Shimmer Effect".
-
-<br />
-
-➻ **[YouTube video link](https://www.youtube.com/watch?v=-ZV-_7vNRGw#🚀)**
+Here I created a clone of the LinkedIn design in order to learn more about the "Shimmer Effect".
 
 <br />
 
 ### 🎓 UI clone with Shimmer Effect
 
 <p align="center">
-  <a href="https://github.com/imtherouser/youtube/LinkedInClone#🚀">
+  <a href="https://github.com/ronoctua/youtube/LinkedInClone#🚀">
     <img src="screenshots/LinkedInClone.gif">
   </a>
 </p>
 
 <br />
 
-[◄ Back link](https://github.com/imtherouser/Studies/tree/master/study-codes/Rocketseat#🚀)
+[◄ Back link](https://github.com/ronoctua/old-study-codes/tree/master/study-codes/Rocketseat#🚀)

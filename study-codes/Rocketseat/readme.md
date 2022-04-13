@@ -1,30 +1,32 @@
 <p align="center">
-  <a aria-label="MY_ROCKETSEAT_CODES" href="https://github.com/imtherousers/Studies/study-codes/Rocketseat#🚀">
+  <a aria-label="MY_ROCKETSEAT_CODES" href="https://github.com/ronoctua/old-study-codes/study-codes/Rocketseat#🚀">
     <img src="assets/Rocketseat-banner.gif">
   </a>
 </p>
 
 <p align="center">
-  <a aria-label="MADE_BY_imtherouser" href="https://github.com/imtherousers/Studies/study-codes/Rocketseat#🚀">
-    <img src="https://img.shields.io/badge/-MADE_BY_imtherouser-7159c1?style=for-the-badge&labelColor=222222">
+  <a aria-label="MADE_BY_ronoctua" href="https://github.com/ronoctua/old-study-codes/study-codes/Rocketseat#🚀">
+    <img src="https://img.shields.io/badge/-MADE_BY_ronoctua-7159c1?style=for-the-badge&labelColor=222222">
   </a>
   <a aria-label="LESSONS_FROM_ROCKETSEAT" href="https://rocketseat.com.br/#🚀">
     <img alt="" src="https://img.shields.io/badge/LESSONS_FROM-Rocketseat_🚀-7159c1?style=for-the-badge&labelColor=222222">
   </a>
 </p>
 
-[◄ Back link](https://github.com/imtherouser/Studies#🖖)
+[◄ Back link](https://github.com/ronoctua/old-study-codes#🖖)
 
 <br />
 
-> This repository contains codes developed by me through the content provided by the Rocketseat company.
+### 🟪 **ABOUT**
+
+Here are some of the codes developed by me through the content provided by the Rocketseat company.
 
 <br />
 
-> Click on the links below to open the apps readme, codes, and screenshots.
+> Click on the links below to open the apps readme, screenshots and codes.
 
 <p align="center">
-  <a aria-label="__dotted_line__" href="https://github.com/imtherousers/Studies/study-codes/Rocketseat#🚀">
+  <a aria-label="__dotted_line__" href="https://github.com/ronoctua/old-study-codes/study-codes/Rocketseat#🚀">
     <img src="assets/dotted-purple-line.png">
   </a>
 </p>
@@ -35,7 +37,7 @@
 
 <br />
 
-**[GoBarber](bootcamp/GoStack11/GoBarber#🚀)** ┊ The most complete code I've created through Rocketseat content. It is a integral solution (api, web, mobile) created for a barbershop, using an abundance of technologies and programming principles. 🌟 Highlighted!
+**[GoBarber](bootcamp/GoStack11/GoBarber#🚀)** ┊ The most complete code I've created through Rocketseat content. It is a complete app solution (api, web, mobile) built for barbershops.
 
 <table>
   <tr>
@@ -64,7 +66,7 @@
 
 <br />
 
-**[GitHub Explorer](bootcamp/GoStack11/GitHubExplorer#🚀)** ┊ An simple app to explore GitHub repositories. It was developed at the beginning of the bootcamp to introduce about api.
+**[GitHub Explorer](bootcamp/GoStack11/GitHubExplorer#🚀)** ┊ An simple app to explore GitHub repositories. It was developed at the beginning of the bootcamp to introduce how APIs work.
 
 <table>
   <tr>
@@ -92,7 +94,7 @@
 </table>
 
 <p align="center">
-  <a aria-label="__dotted_line__" href="https://github.com/imtherousers/Studies/study-codes/Rocketseat#🚀">
+  <a aria-label="__dotted_line__" href="https://github.com/ronoctua/old-study-codes/study-codes/Rocketseat#🚀">
     <img src="assets/dotted-purple-line.png">
   </a>
 </p>
@@ -131,18 +133,18 @@
 </table>
 
 <p align="center">
-  <a aria-label="__dotted_line__" href="https://github.com/imtherousers/Studies/study-codes/Rocketseat#🚀">
+  <a aria-label="__dotted_line__" href="https://github.com/ronoctua/old-study-codes/study-codes/Rocketseat#🚀">
     <img src="assets/dotted-purple-line.png">
   </a>
 </p>
 
 ### 🟪 **EVENT CODES • Next Level Week**
 
-> Next Level Week is a periodic event where an app is developed over the course of an entire week.
+> Next Level Week were events that no longer exist, where apps were developed over whole weeks.
 
 <br />
 
-**[LetMeAsk](events/NextLevelWeek/NLW06-LetMeAsk#🚀)** _`NLW 06`_ ┊ LetMeAsk is an app to post questions, in real-time, to be answered during a live stream.
+**[LetMeAsk](events/NextLevelWeek/NLW06-LetMeAsk#🚀)** _`NLW 06`_ ┊ LetMeAsk is an app to post questions in real-time to be answered during a live broadcast.
 
 <table>
   <tr>
@@ -199,14 +201,14 @@
 </table>
 
 <p align="center">
-  <a aria-label="__dotted_line__" href="https://github.com/imtherousers/Studies/study-codes/Rocketseat#🚀">
+  <a aria-label="__dotted_line__" href="https://github.com/ronoctua/old-study-codes/study-codes/Rocketseat#🚀">
     <img src="assets/dotted-purple-line.png">
   </a>
 </p>
 
 ### 🟪 **EVENT CODES • Semana OmniStack**
 
-> Event that no longer exists in which complete solutions were developed - api, web and mobile.
+> Event that no longer exists in which a complete app solution were developed.
 
 <br />
 
@@ -238,27 +240,17 @@
 </table>
 
 <p align="center">
-  <a aria-label="__dotted_line__" href="https://github.com/imtherousers/Studies/study-codes/Rocketseat#🚀">
+  <a aria-label="__dotted_line__" href="https://github.com/ronoctua/old-study-codes/study-codes/Rocketseat#🚀">
     <img src="assets/dotted-purple-line.png">
   </a>
 </p>
 
 ### 🟪 Useful Links
 
-↳ [Rocketseat - Me on Rocketseat's social network](https://app.rocketseat.com.br/me/imtherouser#🚀)
+↳ [Rocketseat Website](https://rocketseat.com.br/#🚀)
 
-↳ [Rocketseat - Main page](https://rocketseat.com.br/#🚀)
-
-↳ [Rocketseat - YouTube](https://www.youtube.com/rocketseat#🚀)
-
-↳ [Rocketseat - Twitch](https://www.twitch.tv/rocketseat_oficial#🚀)
-
-↳ [Rocketseat - Twitter](https://twitter.com/rocketseat#🚀)
-
-↳ [Rocketseat - GitHub](https://github.com/Rocketseat#🚀)
-
-↳ [Rocketseat - Facebook](https://www.facebook.com/rocketseat#🚀)
+↳ [Rocketseat YouTube](https://www.youtube.com/rocketseat#🚀)
 
 <br />
 
-[◄ Back link](https://github.com/imtherouser/Studies#🖖)
+[◄ Back link](https://github.com/ronoctua/old-study-codes#🖖)

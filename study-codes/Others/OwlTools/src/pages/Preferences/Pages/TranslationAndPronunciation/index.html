@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../../../assets/styles/global.css" />
+    <link
+      rel="stylesheet"
+      href="../../../../assets/styles/dark-theme.css"
+      title="sidebar-theme"
+    />
+  </head>
+  <body>
+    <div class="main-content">
+      <element>
+        <div>
+          <a href="../../index.html">⇠ back</a>
+        </div>
+      </element>
+
+      <element>
+        <h1>Translation and Pronunciation</h1>
+      </element>
+
+      <element>
+        <p>Translation service provider</p>
+
+        <div>
+          <select type="text" id="translate-provider-select" class="flex-1">
+            <option value="google-translate">Google Translate</option>
+            <option value="bing-translator">Bing Translator</option>
+            <option value="yandex-translate">Yandex Translate</option>
+            <option value="deepl-translate">DeepL Translate</option>
+            <option value="mymemory">MyMemory</option>
+          </select>
+        </div>
+      </element>
+
+      <element>
+        <p>
+          Languages of the translation service when it opens without something
+          to be translated
+        </p>
+
+        <div>
+          <label>Source language code:</label>
+
+          <input
+            type="text"
+            id="source-language-when-opening-the-service-input"
+            class="flex-1 small-width"
+          />
+        </div>
+
+        <div>
+          <label>Target language code:</label>
+
+          <input
+            type="text"
+            id="target-language-when-opening-the-service-input"
+            class="flex-1 small-width"
+          />
+        </div>
+      </element>
+
+      <element>
+        <p>
+          Languages of the translation service when it opens with a selection or
+          website to be translated
+        </p>
+
+        <div>
+          <label>Source language code:</label>
+
+          <input
+            type="text"
+            id="source-language-when-translating-input"
+            class="flex-1 small-width"
+          />
+        </div>
+
+        <div>
+          <label>Target language code:</label>
+
+          <input
+            type="text"
+            id="target-language-when-translating-input"
+            class="flex-1 small-width"
+          />
+        </div>
+      </element>
+
+      <element>
+        <p>Provider to translate an entire website</p>
+
+        <div>
+          <select
+            type="text"
+            id="translate-the-page-provider-select"
+            class="flex-1"
+          >
+            <option value="google-translate">Google Translate</option>
+            <option value="microsoft-translator">Microsoft Translator</option>
+            <option value="yandex-translate">Yandex Translate</option>
+          </select>
+        </div>
+      </element>
+
+      <element>
+        <p>
+          Languages of the translation service to translate an entire website
+        </p>
+
+        <div>
+          <label>Source language code:</label>
+
+          <input
+            type="text"
+            id="source-language-to-translate-the-page-input"
+            class="flex-1 small-width"
+          />
+        </div>
+
+        <div>
+          <label>Target language code:</label>
+
+          <input
+            type="text"
+            id="target-language-to-translate-the-page-input"
+            class="flex-1 small-width"
+          />
+        </div>
+      </element>
+
+      <element>
+        <div>
+          <p>
+            <b>TIP 1:</b> Choose the language code that the translation service
+            uses in the ulr.
+          </p>
+        </div>
+
+        <div>
+          <p>
+            <b>TIP 2:</b> The
+            <a
+              href="https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes"
+              target="_blank"
+              >ISO 639-1</a
+            >
+            standardization codes are a good reference.
+          </p>
+        </div>
+
+        <div>
+          <p>
+            <b>TIP 3:</b> Some sites do not use code, but the name of the
+            language. Example: Instead of "pt" they can use "portuguese".
+          </p>
+        </div>
+      </element>
+
+      <element>
+        <p>
+          Pronunciation service website to be opened by clicking on the
+          pronunciation icon in the Owl Tools popup
+        </p>
+
+        <div>
+          <input
+            type="text"
+            id="pronunciation-popup-site-one-protocol"
+            class="small-width"
+            placeholder="Protocol"
+          />
+
+          <input
+            type="text"
+            id="pronunciation-popup-site-one-address"
+            class="flex-1"
+            placeholder="Website address (without protocol)"
+          />
+        </div>
+
+        <div>
+          <select
+            type="text"
+            id="pronunciation-popup-site-one-where-to-open-select"
+            class="flex-1"
+          >
+            <option value="⇠ sidebar">open in the sidebar</option>
+            <option value="popup">open in the popup</option>
+            <option value="popup (iframe method)">
+              open in the popup (iframe method)
+            </option>
+            <option value="⇡ new tab">open in a new tab</option>
+            <option value="⇡ new tab (pinned)">
+              open in a new tab (pinned)
+            </option>
+            <option value="⇣ current tab">open in the current tab</option>
+            <option value="⇣ current tab (pinned)">
+              open in the current tab (pinned)
+            </option>
+          </select>
+        </div>
+      </element>
+
+      <element class="justify-center">
+        <button id="save-data-button" class="click-animation">SAVE ALL</button>
+      </element>
+    </div>
+    <script
+      type="module"
+      src="./handle-translation-and-pronunciation.js"
+    ></script>
+    <script src="../../../../assets/scripts/click-animation.js"></script>
+  </body>
+</html>

@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../assets/styles/global.css" />
+    <link rel="stylesheet" href="../../assets/styles/light-theme.css" />
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <element class="initial-cursor-impediment"></element>
+
+    <div id="main-content">
+      <element id="popup-menu">
+        <div>
+          <element id="popup-alias-bar">
+            <input
+              id="alias-bar-input"
+              type="text"
+              placeholder="Alias bar"
+              autofocus
+            />
+          </element>
+        </div>
+
+        <div>
+          <element class="small-menu-item" id="pronunciation">🗣</element>
+          <element class="small-menu-item" id="translate-sidebar">⇠</element>
+          <element class="small-menu-item" id="translate-page">⇣</element>
+          <element class="small-menu-item" id="translate-tab">⇡</element>
+          <element class="small-menu-item" id="translate-popup">💬</element>
+        </div>
+
+        <div>
+          <element class="small-menu-item" id="qrcode">Q</element>
+          <element class="small-menu-item" id="lorem-ipsum">L</element>
+          <element class="small-menu-item" id="feed">★</element>
+          <element class="small-menu-item" id="injection">💉</element>
+          <element class="small-menu-item" id="kill">⤫</element>
+        </div>
+
+        <div>
+          <element class="small-menu-item" id="custom-site-one">?</element>
+          <element class="small-menu-item" id="custom-site-two">?</element>
+          <element class="small-menu-item" id="custom-site-three">?</element>
+          <element class="small-menu-item" id="custom-site-four">?</element>
+          <element class="small-menu-item" id="custom-site-five">?</element>
+        </div>
+
+        <div>
+          <element class="small-menu-item small-menu-item" id="preferences">
+            🔧
+          </element>
+          <element class="small-menu-item" id="rain">🌨</element>
+          <element class="small-menu-item" id="notes">📌</element>
+          <element class="small-menu-item" id="icons">☺</element>
+          <element class="small-menu-item" id="sidebar">↢</element>
+        </div>
+      </element>
+
+      <element id="popup-description-space">
+        <span
+          id="initial-description"
+          class="own-tools-icon description hideorshow show"
+        >
+          <div class="exchange-rate">
+            <span class="left rate">
+              <i id="currency-one-name"></i>
+              <b id="currency-one-value"></b>
+            </span>
+
+            <span class="right rate">
+              <i id="currency-two-name"></i>
+              <b id="currency-two-value"></b>
+            </span>
+          </div>
+
+          <div class="exchange-rate">
+            <span class="left rate">
+              <i id="currency-three-name"></i>
+              <b id="currency-three-value"></b>
+            </span>
+
+            <span class="right rate">
+              <i id="currency-four-name"></i>
+              <b id="currency-four-value"></b
+            ></span>
+          </div>
+        </span>
+
+        <span id="popup-alias-bar-hideorshow" class="description hide">
+          <b>Alias/shortcuts</b>
+        </span>
+
+        <span id="pronunciation-hideorshow" class="description hide">
+          <b>Pronunciation</b>
+          <br />
+          <span id="pronunciation-subtitle"></span>
+        </span>
+
+        <span id="translate-sidebar-hideorshow" class="description hide">
+          <b>Translator</b>
+          <br />
+          ⇠ sidebar
+        </span>
+
+        <span id="translate-page-hideorshow" class="description hide">
+          <b>Translator</b>
+          <br />
+          ⇣ translate the page
+        </span>
+
+        <span id="translate-tab-hideorshow" class="description hide">
+          <b>Translator</b>
+          <br />
+          ⇡ new tab
+        </span>
+
+        <span id="translate-popup-hideorshow" class="description hide">
+          <!-- <b>Translator</b>
+          <br />
+          popup -->
+          <b>Disabled in this version</b>
+          <br />
+          It is not working anymore
+        </span>
+
+        <span id="kill-hideorshow" class="description hide">
+          <b>Kill some page element</b>
+        </span>
+
+        <span id="injection-hideorshow" class="description hide">
+          <b>Personal code injection</b>
+        </span>
+
+        <span id="lorem-ipsum-hideorshow" class="description hide">
+          <b>Lorem Ipsum Generator</b>
+        </span>
+
+        <span id="feed-hideorshow" class="description hide">
+          <b>Get the page feed link</b>
+        </span>
+
+        <span id="qrcode-hideorshow" class="description hide">
+          <b>QR Code Generator</b>
+        </span>
+
+        <span id="custom-site-one-hideorshow" class="description hide">
+          <b id="custom-site-one-title"></b>
+          <br />
+          <span id="custom-site-one-subtitle"></span>
+        </span>
+
+        <span id="custom-site-two-hideorshow" class="description hide">
+          <b id="custom-site-two-title"></b>
+          <br />
+          <span id="custom-site-two-subtitle"></span>
+        </span>
+
+        <span id="custom-site-three-hideorshow" class="description hide">
+          <b id="custom-site-three-title"></b>
+          <br />
+          <span id="custom-site-three-subtitle"></span>
+        </span>
+
+        <span id="custom-site-four-hideorshow" class="description hide">
+          <b id="custom-site-four-title"></b>
+          <br />
+          <span id="custom-site-four-subtitle"></span>
+        </span>
+
+        <span id="custom-site-five-hideorshow" class="description hide">
+          <b id="custom-site-five-title"></b>
+          <br />
+          <span id="custom-site-five-subtitle"></span>
+        </span>
+
+        <span id="preferences-hideorshow" class="description hide">
+          <b>Preferences</b>
+          <br />
+          ⇠ sidebar
+        </span>
+
+        <span id="sidebar-hideorshow" class="description hide">
+          <b>Open the current website in the sidebar</b>
+        </span>
+
+        <span id="rain-hideorshow" class="description hide">
+          <b>Rain sound</b>
+          <br />
+          ⇠ sidebar
+        </span>
+
+        <span id="icons-hideorshow" class="description hide">
+          <b>Icons</b>
+          <br />
+          ⇠ sidebar
+        </span>
+
+        <span id="notes-hideorshow" class="description hide">
+          <b>Notes</b>
+          <br />
+          ⇠ sidebar
+        </span>
+      </element>
+
+      <script type="module" src="popup-custom-items.js"></script>
+      <script type="module" src="popup-general.js"></script>
+      <script type="module" src="popup-exchange-rate.js"></script>
+      <script src="../../assets/scripts/cursor-show-hide-elements.js"></script>
+      <script type="module" src="popup-interactions.js"></script>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../../../assets/styles/global.css" />
+    <link
+      rel="stylesheet"
+      href="../../../../assets/styles/dark-theme.css"
+      title="sidebar-theme"
+    />
+  </head>
+  <body>
+    <div class="main-content">
+      <element>
+        <div>
+          <a href="../../index.html">⇠ back</a>
+        </div>
+      </element>
+
+      <element>
+        <h1>Code Injection</h1>
+        <div>
+          <p>
+            Configure your code that is injected on the current page every time
+            the injection button is clicked.
+          </p>
+        </div>
+      </element>
+
+      <element class="flex">
+        <textarea
+          name="code-injection-textarea"
+          id="code-injection-textarea"
+          spellcheck="false"
+        ></textarea>
+      </element>
+
+      <element class="justify-center">
+        <button id="code-injection-save-button" class="click-animation">
+          SAVE
+        </button>
+      </element>
+
+      <element>
+        <h3>TIP</h3>
+        <p>To prevent the code from being blocked, structure it as follows:</p>
+        <p>
+          <span class="highlight"><b>(() => {</b></span>
+          <br />
+          &nbsp;&nbsp;YOUR CODE HERE
+          <br />
+          <span class="highlight"><b>})();</b></span>
+        </p>
+      </element>
+    </div>
+    <script type="module" src="./handle-code-injection.js"></script>
+    <script src="../../../../assets/scripts/click-animation.js"></script>
+  </body>
+</html>

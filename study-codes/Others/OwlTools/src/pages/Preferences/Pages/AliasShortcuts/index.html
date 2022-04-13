@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../../../assets/styles/global.css" />
+    <link
+      rel="stylesheet"
+      href="../../../../assets/styles/dark-theme.css"
+      title="sidebar-theme"
+    />
+  </head>
+  <body>
+    <div class="main-content">
+      <element>
+        <div>
+          <a href="../../index.html">⇠ back</a>
+        </div>
+      </element>
+
+      <element>
+        <h1>Alias Shortcuts</h1>
+
+        <div>
+          <p>
+            Aliases allow you to access websites quickly from the keyboard. To
+            use the feature, just type the shortcut <b>Alt</b> + <b>x</b> to
+            open the popup and then type the alias. Another way to use it is by
+            typing <b>x</b> + <b>space</b> in the browser url bar.
+          </p>
+        </div>
+      </element>
+
+      <element>
+        <h3>How to set up your alias</h3>
+
+        <p>
+          Write it in the following format:
+          <br />
+          <span class="highlight"><b>ALIAS</b></span> <b>space</b>
+          <span class="highlight"><b>URL_AND_PARAMS</b></span
+          >. Where the parameters are written with the sign "<span
+            class="highlight"
+            ><b>|</b></span
+          >" + a <span class="highlight">number</span>. Example:
+        </p>
+
+        <p>
+          <span class="highlight"
+            ><b> git </b> https://github.com/search?q=<b>|1</b></span
+          >
+        </p>
+
+        <p>
+          The result of typing the alias "<b>git</b>" + the parameter "<b
+            >Owl Tools</b
+          >" will return a search on the GitHub website for the "Owl Tools".
+        </p>
+      </element>
+
+      <element>
+        <h3>Other tips</h3>
+
+        <p>
+          • You can put more than one parameter by enumerating them, example:
+          <span class="highlight">|1 |2 |3</span>
+        </p>
+
+        <p>• It is also possible not to set any parameters.</p>
+
+        <p>
+          • The character "<span class="highlight"><b>*</b></span
+          >" get everything typed that is not an alias.
+        </p>
+
+        <p>• Each line below represents the configuration of an alias.</p>
+      </element>
+
+      <element class="flex">
+        <textarea
+          name="alias-list-textarea"
+          id="alias-list-textarea"
+          class="textarea-list"
+          spellcheck="false"
+        ></textarea>
+      </element>
+
+      <element>
+        <p>Where the alias typed in the popup will open</p>
+
+        <div>
+          <select
+            type="text"
+            id="where-to-open-from-popup-select"
+            class="flex-1"
+          >
+            <option value="⇠ sidebar">open in the sidebar</option>
+            <option value="popup">open in the popup</option>
+            <option value="popup (iframe method)">
+              open in the popup (iframe method)
+            </option>
+            <option value="⇡ new tab">open in a new tab</option>
+            <option value="⇡ new tab (pinned)">
+              open in a new tab (pinned)
+            </option>
+            <option value="⇣ current tab">open in the current tab</option>
+            <option value="⇣ current tab (pinned)">
+              open in the current tab (pinned)
+            </option>
+          </select>
+        </div>
+      </element>
+
+      <element>
+        <p>Where the alias typed in the browser url bar will open</p>
+
+        <div>
+          <select
+            type="text"
+            id="where-to-open-from-omnibox-select"
+            class="flex-1"
+          >
+            <option value="⇠ sidebar">open in the sidebar</option>
+            <option value="popup">open in the popup</option>
+            <option value="popup (iframe method)">
+              open in the popup (iframe method)
+            </option>
+            <option value="⇡ new tab">open in a new tab</option>
+            <option value="⇡ new tab (pinned)">
+              open in a new tab (pinned)
+            </option>
+            <option value="⇣ current tab">open in the current tab</option>
+            <option value="⇣ current tab (pinned)">
+              open in the current tab (pinned)
+            </option>
+          </select>
+        </div>
+      </element>
+
+      <element class="justify-center">
+        <button id="alias-save-button" class="click-animation">SAVE</button>
+      </element>
+    </div>
+    <script type="module" src="./handle-alias-shortcuts.js"></script>
+    <script src="../../../../assets/scripts/click-animation.js"></script>
+  </body>
+</html>

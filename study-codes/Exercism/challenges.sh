@@ -2,10 +2,10 @@
 
 echo "HANDLE CHALLENGES"
 
-read -r -d '' top_readme_content << EOM
+read -r -d '' top_readme_content <<EOM
 <br />
 
-[◄ Back link](https://github.com/imtherouser/Studies/tree/master/study-codes/Exercism/#🖖)
+[◄ Back link](https://github.com/ronoctua/old-study-codes/tree/master/study-codes/Exercism/#🖖)
 
 <br />
 
@@ -19,19 +19,19 @@ EOM
 folders=($(ls typescript))
 
 for folder in "${folders[@]}"; do
-  link="* [$folder](https://github.com/imtherouser/Studies/tree/master/study-codes/Exercism/typescript/$folder#🖖)"
+  link="* [$folder](https://github.com/ronoctua/old-study-codes/tree/master/study-codes/Exercism/typescript/$folder#🖖)"
 
   if !(grep -Fxq "$link" "readme.md"); then
-    echo "$link" >> "readme.md"
+    echo "$link" >>"readme.md"
 
     echo "$top_readme_content
 
-$(cat typescript/$folder/README.md)" > "typescript/$folder/README.md"
+$(cat typescript/$folder/README.md)" >"typescript/$folder/README.md"
 
     echo "*
 !README.md
 !*.ts
-" > "typescript/$folder/.gitignore"
+" >"typescript/$folder/.gitignore"
 
     echo -e "➤ Challenge added: $folder"
   fi

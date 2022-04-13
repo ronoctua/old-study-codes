@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../../../assets/styles/global.css" />
+    <link rel="stylesheet" href="../../../../assets/styles/toggle.css" />
+    <link
+      rel="stylesheet"
+      href="../../../../assets/styles/dark-theme.css"
+      title="sidebar-theme"
+    />
+  </head>
+  <body>
+    <div class="main-content">
+      <element>
+        <div>
+          <a href="../../index.html">⇠ back</a>
+        </div>
+      </element>
+
+      <element>
+        <h1>Extra Features</h1>
+      </element>
+
+      <element
+        ><p>
+          <b>Note:</b>
+          <i
+            >Most of these features may stop working at any time, or be
+            discontinued, as they depend on the source code of third party sites
+            not being changed in some parts.</i
+          >
+        </p>
+      </element>
+
+      <element>
+        <label><b>Download icon on GitHub repository files</b></label>
+
+        <div>
+          <input type="checkbox" id="github-icon-on-off" class="toggle" />
+
+          <label class="label-right">
+            This makes it possible to right-click the download icon and easily
+            download the specific file from a GitHub repository.
+          </label>
+        </div>
+      </element>
+
+      <element>
+        <label><b>Closed caption indicator on YouTube</b></label>
+
+        <div>
+          <input
+            type="checkbox"
+            id="youtube-closed-caption-on-off"
+            class="toggle"
+          />
+
+          <label class="label-right">
+            This feature inserts caption indicators in YouTube thumbnails.
+          </label>
+        </div>
+
+        <div>
+          <span
+            >Enter the language code to be detected, separated by space.</span
+          >
+        </div>
+
+        <div>
+          <input
+            type="text"
+            id="closed-caption-language-codes-input"
+            class="flex-1 big-word-spacing"
+            placeholder="Example: pt en ru"
+          />
+        </div>
+      </element>
+
+      <element>
+        <label><b>Versatile buttons on YouTube</b></label>
+
+        <div>
+          <input
+            type="checkbox"
+            id="youtube-versatile-buttons-on-off"
+            class="toggle"
+          />
+
+          <label class="label-right">
+            These four buttons are added below all videos. Clicking on it takes
+            you to any defined website and passes the video url or id as a
+            parameter.
+          </label>
+        </div>
+
+        <div>
+          <p>
+            Type the icon and then the website protocol (https://) and address +
+            <span class="highlight" style="white-space: nowrap"
+              >&lt;yt-url&gt;</span
+            >
+            or
+            <span class="highlight" style="white-space: nowrap"
+              >&lt;yt-id&gt;</span
+            >
+            parameter.
+          </p>
+        </div>
+
+        <div>
+          <input
+            type="text"
+            id="youtube-versatile-button-one-content-input"
+            class="micro-width"
+            placeholder="Icon"
+          />
+
+          <input
+            type="text"
+            id="youtube-versatile-button-one-address-input"
+            class="flex-1"
+            placeholder="Type here the website"
+          />
+        </div>
+
+        <div>
+          <input
+            type="text"
+            id="youtube-versatile-button-two-content-input"
+            class="micro-width"
+            placeholder="Icon"
+          />
+
+          <input
+            type="text"
+            id="youtube-versatile-button-two-address-input"
+            class="flex-1"
+            placeholder="Type here the website"
+          />
+        </div>
+
+        <div>
+          <input
+            type="text"
+            id="youtube-versatile-button-three-content-input"
+            class="micro-width"
+            placeholder="Icon"
+          />
+
+          <input
+            type="text"
+            id="youtube-versatile-button-three-address-input"
+            class="flex-1"
+            placeholder="Type here the website"
+          />
+        </div>
+
+        <div>
+          <input
+            type="text"
+            id="youtube-versatile-button-four-content-input"
+            class="micro-width"
+            placeholder="Icon"
+          />
+
+          <input
+            type="text"
+            id="youtube-versatile-button-four-address-input"
+            class="flex-1"
+            placeholder="Type here the website"
+          />
+        </div>
+      </element>
+
+      <element>
+        <label><b>Twich.tv scrollbar modified</b></label>
+
+        <div>
+          <input
+            type="checkbox"
+            id="twich-scrollbar-icon-on-off"
+            class="toggle"
+          />
+
+          <label class="label-right">
+            Some users have problems with Twich.tv's scrollbars and this feature
+            makes modifications to make them accessible.
+          </label>
+        </div>
+      </element>
+
+      <element class="justify-center">
+        <button id="extra-features-save-button" class="click-animation">
+          SAVE ALL
+        </button>
+      </element>
+    </div>
+    <script type="module" src="./handle-extra-features.js"></script>
+    <script src="../../../../assets/scripts/click-animation.js"></script>
+  </body>
+</html>

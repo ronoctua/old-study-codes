@@ -1,0 +1,72 @@
+body {
+  background-color: #1f201f;
+}
+
+body,
+p,
+label {
+  color: #b9b9b9;
+}
+
+h1,
+h2 {
+  color: #e3e3e3;
+}
+
+h3 {
+  color: #aaa;
+}
+
+a,
+a:visited,
+a:visited:hover,
+a:hover,
+li a:hover,
+li a:hover:visited {
+  text-decoration: none;
+  color: #f2f2f2;
+}
+
+li a,
+li a:visited {
+  color: #b7b7b7;
+}
+
+textarea,
+input,
+select {
+  border: 1px solid #2b2b2b;
+  background-color: #282828;
+  color: #d9d9d9;
+}
+
+button {
+  border: 1px solid #393939;
+  background-color: #333;
+  color: #bdbdbd;
+  letter-spacing: 0.5px;
+}
+
+.bg-done {
+  background-color: #1d2623;
+}
+
+.list li {
+  color: #c4abff;
+}
+
+.list li::before {
+  content: '• ';
+  color: #8257e6;
+}
+
+.highlight,
+.selected,
+.selected h1,
+.selected h2,
+.selected h3,
+.selected a,
+.selected p,
+.selected label {
+  color: #99bf6a;
+}

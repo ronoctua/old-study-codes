@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../../../assets/styles/global.css" />
+    <link rel="stylesheet" href="../../../../assets/styles/toggle.css" />
+    <link
+      rel="stylesheet"
+      href="../../../../assets/styles/dark-theme.css"
+      title="sidebar-theme"
+    />
+    <!-- <script src="../../../../assets/scripts/data-include-min.js"></script> -->
+  </head>
+  <body>
+    <div class="main-content">
+      <element>
+        <div>
+          <a href="../../index.html">⇠ back</a>
+        </div>
+      </element>
+
+      <element>
+        <h1>General Settings</h1>
+      </element>
+
+      <element>
+        <div>
+          <input
+            type="checkbox"
+            id="logo-in-the-popup-description-box-on-off"
+            class="toggle"
+          />
+
+          <label class="label-right">
+            Show Owl Tools logo in the popup description box.
+          </label>
+        </div>
+      </element>
+
+      <!-- <element data-include="./components/ThemeSettings/index.html"></element> -->
+
+      <element>
+        <div class="justify-center">
+          <button id="save-data-button" class="click-animation">SAVE</button>
+        </div>
+      </element>
+    </div>
+    <script type="module" src="./handle-general-settings.js"></script>
+    <script src="../../../../assets/scripts/click-animation.js"></script>
+  </body>
+</html>

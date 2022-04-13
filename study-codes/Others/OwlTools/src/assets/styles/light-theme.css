@@ -1,0 +1,61 @@
+body,
+button,
+select,
+input,
+.default-background {
+  background-color: #fff;
+}
+
+body,
+p,
+label {
+  color: #3c3c3c;
+}
+
+button,
+select,
+input {
+  border: 1px solid #e1e1e1;
+}
+
+textarea {
+  border: 3px dotted #d9d9d9;
+  scrollbar-color: #e6e4e4 #f7f2f2;
+  color: #606060;
+}
+
+#popup-alias-bar input {
+  border-bottom: 1px dotted #b7b7b7;
+  color: #5b5b5b;
+  caret-color: #fff0;
+}
+
+#popup-description-space {
+  border-top: 1px dotted #d0d0d0;
+  background-color: #f2f2f2;
+}
+
+#popup-description-space span {
+  color: #4f4f4f;
+}
+
+#initial-description {
+  filter: opacity(30%);
+}
+
+#initial-description span.rate {
+  color: #000;
+}
+
+.bg-done {
+  background-color: #b0dfac;
+}
+
+.small-menu-item {
+  filter: contrast(0);
+  color: #777;
+}
+
+.small-menu-item:hover {
+  background-color: #fefefe4a;
+}

@@ -1,12 +1,12 @@
 <p align="center">
-  <a href="https://github.com/imtherouser/events/SemanaOmniStack/SO11-BeTheHero#🚀">
+  <a href="https://github.com/ronoctua/events/SemanaOmniStack/SO11-BeTheHero#🚀">
     <img src="screenshots/BeTheHero.gif">
   </a>
 </p>
 
 <br />
 
-[◄ Back link](https://github.com/imtherouser/Studies/tree/master/study-codes/Rocketseat#🚀)
+[◄ Back link](https://github.com/ronoctua/old-study-codes/tree/master/study-codes/Rocketseat#🚀)
 
 ### 🔴 Be The Hero
 
@@ -20,7 +20,7 @@ It is an application to connect NGOs to people willing to help.
 
 <br />
 
-### 🔴 My version following the original idea:
+### 🔴 My version following the original idea
 
 <table>
   <tr>
@@ -61,7 +61,9 @@ It is an application to connect NGOs to people willing to help.
 
 <br />
 
-### 🔴 My dinosaur version hehehe (nothing special, I just changed the logo 🤡):
+### 🔴 My dinosaur version hehehe 🤡
+
+> Nothing special, it just has a different logo.
 
 <table>
   <tr>
@@ -85,4 +87,4 @@ It is an application to connect NGOs to people willing to help.
 
 <br />
 
-[◄ Back link](https://github.com/imtherouser/Studies/tree/master/study-codes/Rocketseat#🚀)
+[◄ Back link](https://github.com/ronoctua/old-study-codes/tree/master/study-codes/Rocketseat#🚀)

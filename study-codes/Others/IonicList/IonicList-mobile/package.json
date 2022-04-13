@@ -1,8 +1,8 @@
 {
   "name": "listapp",
   "version": "1.0.0",
-  "author": "imtherouser",
-  "homepage": "https://github.com/imtherouser/ioniclistapp",
+  "author": "ronoctua",
+  "homepage": "https://github.com/ronoctua/ioniclistapp",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",

@@ -1,0 +1,47 @@
+{
+  "contextMenuItemTranslateSelectionInTheBox": {
+    "message": "💬  Translate selected (box)"
+  },
+  "contextMenuItemTranslateSelectionInTheSidebar": {
+    "message": "💬  Translate selected (sidebar)"
+  },
+  "contextMenuItemTranslateSelectionInNewTab": {
+    "message": "💬  Translate selected (new tab)"
+  },
+  "contextMenuItemTranslateThePage": {
+    "message": "💬  Translate the page"
+  },
+  "contextMenuItemPronunciationOnForvo": {
+    "message": "🗣  Pronunciation (Forvo)"
+  },
+  "contextMenuItemPronunciationOnGoogle": {
+    "message": "🗣  Pronunciation (Google)"
+  },
+  "contextMenuItemSearchOnGoogleMaps": {
+    "message": "🔎  Search (Google Maps)"
+  },
+  "contextMenuItemSearchOnGoogle": {
+    "message": "🔎  Search (Google)"
+  },
+  "contextMenuItemSearchOnYouTube": {
+    "message": "🔎  Search (YouTube)"
+  },
+  "contextMenuItemSearchOnUnsplash": {
+    "message": "🔎  Search (Unsplash)"
+  },
+  "contextMenuItemSearchOnVimeo": {
+    "message": "🔎  Search (Vimeo)"
+  },
+  "contextMenuItemOpenThePageInTheSidebar": {
+    "message": "←  Open the page in the sidebar"
+  },
+  "contextMenuItemCodeInjection": {
+    "message": "💉  Code injection"
+  },
+  "contextMenuItemKillSomeElement": {
+    "message": "🗙  Kill some element"
+  },
+  "contextMenuItemGetPageFeedLink": {
+    "message": "★  Get page feed link"
+  }
+}

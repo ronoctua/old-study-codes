@@ -1,0 +1,38 @@
+div#main-content {
+  flex-direction: column;
+}
+
+h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 60px;
+  margin: 14px 0 0 0;
+}
+
+element#all-icons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 0;
+}
+
+element.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 13px;
+  margin: 0;
+  font-size: 19px;
+  cursor: crosshair;
+}
+
+textarea {
+  height: 0;
+  width: 0;
+  padding: 0;
+  margin: 0;
+  font-size: 0;
+  line-height: 0;
+  border: none;
+}
