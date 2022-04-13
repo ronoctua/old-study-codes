@@ -1,7 +1,7 @@
 <div align="center" width="100%">
 <br>
-  <a href="https://github.com/ronoctua/old-study-codes/study-codes/Others/OwlTools#readme">
-    <img alt="Owl Tools Logo Image" src="https://github.com/ronoctua/old-study-codes/study-codes/Others/OwlTools/blob/master/docs/readme/assets/owl-tools-top-banner.svg" width="100%" />
+  <a href="https://github.com/ronoctua/old-study-codes/blob/master/study-codes/Others/OwlTools#readme">
+    <img alt="Owl Tools Logo Image" src="https://github.com/ronoctua/old-study-codes/blob/master/study-codes/Others/OwlTools/docs/readme/assets/owl-tools-top-banner.svg" width="100%" />
   </a>
 </div>
 
@@ -17,20 +17,20 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/ronoctua/old-study-codes/study-codes/Others/OwlTools/blob/master/docs/changelog/changelog.en.md#🦉">
-    <img alt="Version Badge" src="https://img.shields.io/github/manifest-json/v/ronoctua/old-study-codes/study-codes/Others/OwlTools?style=flat&color=8C8C8C&labelColor=8854E6">
+  <a href="https://github.com/ronoctua/old-study-codes/blob/master/study-codes/Others/OwlTools/docs/changelog/changelog.en.md#🦉">
+    <img alt="Version Badge" src="https://img.shields.io/github/manifest-json/v/ronoctua/old-study-codes/master/study-codes/Others/OwlTools?label=version&style=flat&color=8C8C8C&labelColor=8854E6">
   </a>
    <a href="https://addons.mozilla.org/en-US/firefox/addon/owl-tools/#🦉">
-    <img alt="Download Badge" src="https://github.com/ronoctua/old-study-codes/study-codes/Others/OwlTools/blob/master/docs/readme/assets/download-button.gif">
+    <img alt="Download Badge" src="https://github.com/ronoctua/old-study-codes/blob/master/study-codes/Others/OwlTools/docs/readme/assets/download-button.gif">
   </a>
-  <a href="https://github.com/ronoctua/old-study-codes/study-codes/Others/OwlTools/blob/master/docs/license#🦉">
+  <a href="https://github.com/ronoctua/old-study-codes/blob/master/study-codes/Others/OwlTools/docs/license#🦉">
     <img alt="License Badge" src="https://img.shields.io/badge/license-MIT-8C8C8C?style=flat&labelColor=8854E6&cacheSeconds=maxAge">
   </a>
 </p>
 
 <div align="center" width="100%">
-  <a href="https://github.com/ronoctua/old-study-codes/study-codes/Others/OwlTools#🦉">
-    <img src="https://github.com/ronoctua/old-study-codes/study-codes/Others/OwlTools/blob/master/docs/readme/assets/owl-tools-main-apresentation.gif" width="100%" />
+  <a href="https://github.com/ronoctua/old-study-codes/blob/master/study-codes/Others/OwlTools#🦉">
+    <img src="https://github.com/ronoctua/old-study-codes/blob/master/study-codes/Others/OwlTools/docs/readme/assets/owl-tools-main-apresentation.gif" width="100%" />
   </a>
 </div>
 
@@ -80,7 +80,7 @@ Download the Owl Tools add-on by <a href="https://addons.mozilla.org/en-US/firef
 
 ## License
 
-Owl Tools is made available under the <a href="https://github.com/ronoctua/old-study-codes/study-codes/Others/OwlTools/blob/master/docs/license#🦉">MIT license</a>.
+Owl Tools is made available under the <a href="https://github.com/ronoctua/old-study-codes/blob/master/study-codes/Others/OwlTools/docs/license#🦉">MIT license</a>.
 
 <br />
 
